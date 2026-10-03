@@ -1,0 +1,1643 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-03",
+  "scannedPosts": 2086,
+  "farms": [
+    {
+      "id": "legacy-farm-0",
+      "name": "핀카 리브레 (Finca Libre)",
+      "country": "Nicaragua",
+      "region": "Mozonte",
+      "kind": "farm",
+      "aliases": [
+        "핀카 리브레",
+        "핀카리브레",
+        "Finca Coffee Libre",
+        "Finca Libre",
+        "fincacoffeelibre"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "instagram-DeBDmiWgDVy",
+          "date": "2026-10-03",
+          "sourceUrl": "https://www.instagram.com/p/DeBDmiWgDVy/",
+          "quote": "핀카 리브레\n올해 니카라과는 이상 기후로 혹독한 흉작이었다. 하지만 생산자는 희망하는 것이 일인 사람들이다. 모두 다가 올 내년 수확을 준비 중이다. 내년은 수확이 좀 더딜 것 같다. 서늘한 미시기후를 가진 핀카 리브레는 3월이나 되어야 수확을 시작할 수 있을 것 같은데 어쩌면 내년에는 CoE 출품 일정에 차질이 생길 수도"
+        }
+      ]
+    },
+    {
+      "id": "legacy-farm-1",
+      "name": "바드라 에스테이트 (Bhadra Estate)",
+      "country": "India",
+      "region": "Karnataka",
+      "kind": "farm",
+      "aliases": [
+        "바드라",
+        "Bhadra",
+        "Badra Estate"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1783",
+          "date": "2016-01-24",
+          "sourceUrl": "https://www.instagram.com/p/BA6c1ljGMkX/",
+          "quote": "바드라 농장의 커핑랩. 매년 솔베르그한센과 몇몇 로트를 두고 쟁탈전. 좋은 인도 커피는 깨끗하고 단맛 바디가 좋다. 너티한 맛이 브라질에 비해 훨씬 적고 구조감이 더 훌륭하다. 특히 2차크랙 넘어가면 대체 불가능한 파워를 가진다. 약배전에는 잘 어울리지 않는다. 아는 사람은 안다. 왜 이탈리아가 인도 커피를 지난 수십"
+        }
+      ]
+    },
+    {
+      "id": "legacy-farm-2",
+      "name": "산 안토니오 챠기테 (San Antonio Chaguite)",
+      "country": "Guatemala",
+      "region": "Huehuetenango",
+      "kind": "farm",
+      "aliases": [
+        "산안토니오차기테",
+        "산안토니오 챠기테",
+        "산 안토니오 챠기테",
+        "San Antonio Chaguite",
+        "sanantoniochaguite"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1869",
+          "date": "2016-09-21",
+          "sourceUrl": "https://www.instagram.com/p/BKmu34fgYvk/",
+          "quote": "On the way to farm, Finca San Antonio Chaguite. 산안토니오차기테 농장은 멕시코 국경과 맞닿아 있다. 우에우에테낭고 시내에서 3시간을 더 깊은 산 속으로 비포장 길을 달려야 나온다. 3천미터 높이의 산 아랫 부분 1500-2000미터에 산안토니오차기테 농장과 엘모레노 농장이 차례로 펼쳐져 있다. 그리고 그 윗 부분은 늘 구름에 가려있어 신비감을 자아낸다. 매"
+        }
+      ]
+    },
+    {
+      "id": "legacy-farm-3",
+      "name": "아티칸 에스테이트 (Attikan Estate)",
+      "country": "India",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "아티칸",
+        "Attikan"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1784",
+          "date": "2016-01-25",
+          "sourceUrl": "https://www.instagram.com/p/BA7mzhrmMp2/",
+          "quote": "Attikan Estate. 1450-1700m. 지금까지 방문한 약300 군데의 커피 농장 가운데 가장 아름다운 곳이다.  농장이 야생동물 보호구역 깊은 산 속에 있다보니 호랑이, 코끼리, 멧돼지, 버팔로, 원숭이와 함께 커피밭을 공유하고 있는 느낌이 확연하다. 이곳은 전기도 가스도 들어오지 않고 핸드폰 자체가 아예 먹통이"
+        }
+      ]
+    },
+    {
+      "id": "legacy-farm-4",
+      "name": "아자드 힌드 (Azad Hind)",
+      "country": "India",
+      "region": "Coorg",
+      "kind": "farm",
+      "aliases": [
+        "아자드 힌드",
+        "아자드힌드",
+        "Azad Hind",
+        "azadhind"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-227",
+          "date": "2025-01-24",
+          "sourceUrl": "https://www.instagram.com/p/DFMahgrpEdc/",
+          "quote": "Azad Hind 농장. 14년째 방문하고 구매하고 있는 스페셜티 로부스타 농장이다. 쿠르그 지역에 있다.\n\n농장주 키릿은 로부스타 농장에 값비싼 관개 시설을 만들어 물과 비료 공급을 조절한다. 수확, 선별, 발효, 세척, 건조까지 모든 가공 과정의 단계를 직접 챙긴다. 작년에는 기상 조건이 양호해 커피 조밀도도 높아졌고 품질이"
+        }
+      ]
+    },
+    {
+      "id": "fantasia",
+      "name": "판타시아 (Finca Fantasia)",
+      "country": "Colombia",
+      "region": "Popayán · Cauca",
+      "kind": "farm",
+      "aliases": [
+        "Finca Fantasia",
+        "fincafantasia"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1854",
+          "date": "2016-09-02",
+          "sourceUrl": "https://www.instagram.com/p/BJ2lpfZBaac/",
+          "quote": "Madam of Finca Fantasia. On the horse cart. 포파얀 인근 20헥타 정도되는 커피 농장의 안주인. 남편을 'Abuelo' 라고 부른다. 아부엘로는 할아버지란 뜻이니 우리나라에서 할머니가 남편을 '영감'이라 부르는 것과 다르지 않다. 부부가 커피 농장에서 조용히 늙어가는 모습이 참 정다워 커피가 다 뭔가 싶었다. 두 분 모"
+        }
+      ]
+    },
+    {
+      "id": "margarita",
+      "name": "라 마르가리타 (La Margarita)",
+      "country": "Colombia",
+      "region": "Cauca",
+      "kind": "farm",
+      "aliases": [
+        "La Margarita",
+        "lamargarita"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1855",
+          "date": "2016-09-03",
+          "sourceUrl": "https://www.instagram.com/p/BJ4MZ2ch4vb/",
+          "quote": "There will be rain. Finca La Margarita. 2헥타 작은 농장. 품종은 콜롬비아와 카스티요. 콜롬비아는 체리가 빨갛게 익었을 때, 카스티요는 보라색일 때 따야 가장 맛있다. 작은 언덕 등성이에 있는 농장이었는데 돌아올 때 고개를 들어 보니 하늘이 무척 가까웠고 거기엔 별이 가득했다. 순간 왜 이렇고 사나 싶었다. #caucabestcup #colombi"
+        }
+      ]
+    },
+    {
+      "id": "quenene",
+      "name": "케네네 (Quenene)",
+      "country": "Guatemala",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "케네네",
+        "Quenene"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1868",
+          "date": "2016-09-20",
+          "sourceUrl": "https://www.instagram.com/p/BKj_h-UA3Gp/",
+          "quote": "유들로 인해 그 필요성은 점차 선택이 아니라 필수가 될 것이다. 수확 시기도 아닌데 과테말라에 온 이유. Finca Quenene. #irrigationsystem #guatemalacoffee #specialtycoffee #coffeelibre #커피리브레"
+        }
+      ]
+    },
+    {
+      "id": "manantial",
+      "name": "엘 마난티알 수비라나 (El Manantial Subirana)",
+      "country": "Honduras",
+      "region": "Intibucá",
+      "kind": "farm",
+      "aliases": [
+        "El Manantial Subirana"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1957",
+          "date": "2017-02-15",
+          "sourceUrl": "https://www.instagram.com/p/BQhOi18BUYg/",
+          "quote": "Finca El Manantial Subirana. 제작년에 방문 했을 때 80이 다 된 연세에도 힘든 농사일 하시는 게 대단하다 생각했는데 여전하시다. 그 때 이 할아버지 집에 가서 커피와 과자를 얻어 먹었다. 한쪽 벽에 어린 아이가 그린 것 같은 벽화가 있고 그 가운데 큼지막하게 호랑이가 있길래 뭐냐고 여쭤봤다. 예전에 자기가 온두라스 다른 지역에서 직접"
+        }
+      ]
+    },
+    {
+      "id": "santa-isabel",
+      "name": "산타 이사벨 (Santa Isabel)",
+      "country": "Honduras",
+      "region": "Copán",
+      "kind": "farm",
+      "aliases": [
+        "Santa Isabel",
+        "fincasantaisabel"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1959",
+          "date": "2017-02-16",
+          "sourceUrl": "https://www.instagram.com/p/BQj-LyJhRw4/",
+          "quote": "Finca Santa Isabel. 오늘로 집 떠난 지 한 달 째다. 이쯤되면 여기에 아예 눌러 앉고 싶은 마음이 커지기 시작한다. #fincasantaisabel #copan #hondurascoffee #specialtycoffee #coffeelibre #커피리브레"
+        }
+      ]
+    },
+    {
+      "id": "nombre-de-dios",
+      "name": "놈브레 데 디오스 (Nombre de Dios)",
+      "country": "El Salvador",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "Nombre de Dios",
+        "놈브레데디오스",
+        "놈브레 데 디오스",
+        "놈브레 농장"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1951",
+          "date": "2017-02-08",
+          "sourceUrl": "https://www.instagram.com/p/BQP8xKGBEyT/",
+          "quote": "Finca Nombre de Dios. 농장 이름이 신의 이름이다. 8년 째 한 번도 빠지지 않고 방문했다. 커피 리브레의 가장 오랜 다이렉트 트레이드 농장이다. 4년 전 로야로 인한 피해를 크게 받아 생산량이 1/10로 줄어들어 은행과 J.Hill 드라이밀에서 대출 받았던 돈을 제대로 갚지 못해 파산 직전까지 갔었다. 생산량이 줄고 품질이 떨어지"
+        }
+      ]
+    },
+    {
+      "id": "santa-rosa-sv",
+      "name": "산타 로사 (Santa Rosa · El Salvador)",
+      "country": "El Salvador",
+      "region": "Chalatenango",
+      "kind": "farm",
+      "aliases": [
+        "Finca Santa Rosa",
+        "fincasantarosa",
+        "산타 로사",
+        "산타로사"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1082",
+          "date": "2017-06-25",
+          "sourceUrl": "https://www.instagram.com/p/BVwZXpig48f/",
+          "quote": "Thank you for your visiting, Raul! 올해 엘살바도르 CoE 1위를 한 산타 로사 농장의 농장주 라울이 오늘 커피리브레 과테말라 지점에 방문했다며 사진을 보내줬다. 올해 구매한 그의 다이렉트 트레이드 커피가 벌써부터 기대된다. #fincasantarosa #elsalvadorcoffee #coffeelibre #coffeelibregt #커피리브레 #다이렉트트레이드 #coe1위"
+        }
+      ]
+    },
+    {
+      "id": "santa-rosa-1900",
+      "name": "산타 로사 1900 (Santa Rosa 1900)",
+      "country": "Costa Rica",
+      "region": "Tarrazú",
+      "kind": "mill",
+      "aliases": [
+        "Santa Rosa 1900",
+        "산타로사1900",
+        "산타 로사 1900",
+        "santarosa1900"
+      ],
+      "description": "원문에서 이름을 확인한 가공소. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1793",
+          "date": "2016-03-07",
+          "sourceUrl": "https://www.instagram.com/p/BCoxvnnGMls/",
+          "quote": "Santa Rosa 1900. 올해는 따라주 지역 품질이 웨스트 밸리에 비해 돋보였다. 작년에는 수확기에 비가 내리고 날씨가 흐렸는데 올해는 날씨가 많이 도와줬다고 한다. 따라주 지역의 높은 고도 농장들은 이제야 수확 피크점을 막 넘어가고 있다. 산타로사1900 농장은 작년에도 CoE에 3개 로트를 랭크하는 기염을 토했는데  커핑해 보니"
+        }
+      ]
+    },
+    {
+      "id": "monte-copey",
+      "name": "몬테 코페이 (Monte Copey)",
+      "country": "Costa Rica",
+      "region": "Tarrazú",
+      "kind": "farm",
+      "aliases": [
+        "몬테코페이",
+        "몬테 코페이",
+        "montecopey",
+        "Monte Copey"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1793",
+          "date": "2016-03-07",
+          "sourceUrl": "https://www.instagram.com/p/BCoxvnnGMls/",
+          "quote": "로사1900 농장은 작년에도 CoE에 3개 로트를 랭크하는 기염을 토했는데  커핑해 보니 올해는 더욱 기대가 된다. 몬테코페이와 베르데알토 농장도 역시나 훌륭하다. 몬테코페이 최고의 로트인 라메사는 첫수확에 아프리칸베드에서 막 가져온 신선함에도 불구하고 88점 줬다. 올해 코스타리카 라인업은 따라주 와시드가 주를 이루게 될듯하다. #santarosa1900 #montecopey #verdealto #tarrazu #costarica #"
+        }
+      ]
+    },
+    {
+      "id": "verde-alto",
+      "name": "베르데 알토 (Verde Alto)",
+      "country": "Costa Rica",
+      "region": "Tarrazú",
+      "kind": "farm",
+      "aliases": [
+        "베르데알토",
+        "베르데 알토",
+        "verdealto",
+        "Verde Alto"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1793",
+          "date": "2016-03-07",
+          "sourceUrl": "https://www.instagram.com/p/BCoxvnnGMls/",
+          "quote": "농장은 작년에도 CoE에 3개 로트를 랭크하는 기염을 토했는데  커핑해 보니 올해는 더욱 기대가 된다. 몬테코페이와 베르데알토 농장도 역시나 훌륭하다. 몬테코페이 최고의 로트인 라메사는 첫수확에 아프리칸베드에서 막 가져온 신선함에도 불구하고 88점 줬다. 올해 코스타리카 라인업은 따라주 와시드가 주를 이루게 될듯하다. #santarosa1900 #montecopey #verdealto #tarrazu #costarica #directt"
+        }
+      ]
+    },
+    {
+      "id": "moreno",
+      "name": "엘 모레노 (El Moreno)",
+      "country": "Guatemala",
+      "region": "Huehuetenango",
+      "kind": "farm",
+      "aliases": [
+        "엘모레노",
+        "엘 모레노"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1869",
+          "date": "2016-09-21",
+          "sourceUrl": "https://www.instagram.com/p/BKmu34fgYvk/",
+          "quote": "산 속으로 비포장 길을 달려야 나온다. 3천미터 높이의 산 아랫 부분 1500-2000미터에 산안토니오차기테 농장과 엘모레노 농장이 차례로 펼쳐져 있다. 그리고 그 윗 부분은 늘 구름에 가려있어 신비감을 자아낸다. 매년 품질 향상을 위해 엄청난 돈을 투자하고 있어서 놀랍고 고마운 농장. 그만큼 품질도 매년 좋아지고 있어 흡족하다. #fincasanantoniochaguite #huehuetenango #guatemalacoffee #"
+        }
+      ]
+    },
+    {
+      "id": "moredocofe",
+      "name": "모레도코페 (Moredocofe)",
+      "country": "Ethiopia",
+      "region": "Shakiso",
+      "kind": "farm",
+      "aliases": [
+        "Moredocofe"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1933",
+          "date": "2017-01-18",
+          "sourceUrl": "https://www.instagram.com/p/BPZJQz9gDT2/",
+          "quote": "Moredocofe 농장주. 샤키소 지역에 있는 개인 농장. 대형 창고 및 드라이밀 설비를 만들고 있다며 보여줬다. 150컨테이너 용량. 공사판은 말 그대로 공사판이지만 어느 혁신의 자리도 처음엔 그와 같을 거라 생각했다. 비전을 보고 묵묵하게 참는 사람이 드문 이유다. 그리고 원래 비전이란 그런 것이기도 하다. #coffeeli"
+        }
+      ]
+    },
+    {
+      "id": "elida",
+      "name": "엘리다 (Elida)",
+      "country": "Panama",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "엘리다",
+        "Elida"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1288",
+          "date": "2018-05-08",
+          "sourceUrl": "https://www.instagram.com/p/BigC-_pA6hp/",
+          "quote": "Panama Elida Geisha Natural. 파나마 엘리다 농장의 내추럴 게이샤 30Kg 한 배치 볶는데 약간 긴장되는 걸 느꼈다. 먹어보니 맛은 좀 있다. 일단 이번 주 선물세트로 나간다. 이제 CoE 코스타리카 1위, 페루 1위, 브라질 1위를 좀 볶아봐야겠다. #elidaestate #커피리브레 #coffeelibre #"
+        }
+      ]
+    },
+    {
+      "id": "nuguo",
+      "name": "누구오 (Nuguo)",
+      "country": "Panama",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "누구오",
+        "Nuguo"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1969",
+          "date": "2017-02-27",
+          "sourceUrl": "https://www.instagram.com/p/BQ_idSAANAt/",
+          "quote": "Finca Nuguo. 2015년 Best of Panama 1위, 2016년 2위에 빛나는 핀카 누구오 농장의 호세 부부. 재배 고도 1700m-2000m. 게이샤만 재배하는 그의 농장은 내가 방문한 수 백여 개의 농장 중 가장 험준한 원시림 안에 있다. 보케테와는 사람도, 자연 환경도, 커피도 다르다. 아직도 손으로 펄퍼를 돌려"
+        }
+      ]
+    },
+    {
+      "id": "auromar",
+      "name": "아우로마르 (Auromar)",
+      "country": "Panama",
+      "region": "Volcán · Santa Clara",
+      "kind": "farm",
+      "aliases": [
+        "아우로마르",
+        "Auromar"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1971",
+          "date": "2017-02-28",
+          "sourceUrl": "https://www.instagram.com/p/BRCrwBPgVal/",
+          "quote": "Kelly Hartmann, Manager of Finca Auromar. 아우로마르 농장은 볼칸의 산타 클라라 지역에 있다. 고도는 1500-1700미터. 넓이는 22헥타 정도다. 게이샤를 90-100백, 카투아이를 150-180백 정도 생산한다. 고도 자체가 특별히 높지 않지만 최근 Best of Panama 에서 계속 좋은 성적을 보여주고 있다. 게이샤 품종으로 출품해 제작년에"
+        }
+      ]
+    },
+    {
+      "id": "isnul",
+      "name": "이스눌 (Isnul)",
+      "country": "Guatemala",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "이스눌",
+        "Isnul"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-2020",
+          "date": "2017-05-12",
+          "sourceUrl": "https://www.instagram.com/p/BT-Oixkgxhe/",
+          "quote": "Finca Isnul won 11th place in Guatemala Cup of Excellence today. Congrats!!! 오랜 다이렉트 트레이드 농장이자, 각별한 친구, 사업 파트너인 페레즈 가족의 이스눌Isnul 농장이 과테말라 CoE에서 11위를 차지했다. 대회 출품할 로트를 고를 때부터 함께했던 터라 더욱 갚지"
+        }
+      ]
+    },
+    {
+      "id": "el-laurel",
+      "name": "엘 라우렐 (El Laurel)",
+      "country": "Honduras",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "엘라우렐",
+        "엘 라우렐",
+        "엘로렐",
+        "El Laurel",
+        "Finca Laurel"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1245",
+          "date": "2018-03-02",
+          "sourceUrl": "https://www.instagram.com/p/Bfzx6dIAasF/",
+          "quote": "Finca El Laurel. Parainema. 엘 라우렐 농장. 작년도 온두라스 CoE 1위 농장이자 124.5$/lb으로 CoE 역사상 최고 낙찰가를 기록했다. 코마야구아는 온두라스에서 정중앙에 있는 도시임에도 불구하고 엘로렐까지는 6시간이 걸렸다. 이 농장이 위치한 파라이소 지역은 낮은 고도와 사치모르 계열인 파라이네마와 카티모르"
+        }
+      ]
+    },
+    {
+      "id": "la-fortuna",
+      "name": "라 포르투나 (La Fortuna)",
+      "country": "Honduras",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "La Fortuna"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-2021",
+          "date": "2017-05-12",
+          "sourceUrl": "https://www.instagram.com/p/BT-toO_AB3N/",
+          "quote": "있습니다. \n그리고 그의 나머지 생두는 곧 한국으로 출발합니다. \n이외에도 오랜 다이렉트 트레이드 농장인 Finca La Fortuna와 Finca Montecillos 도 오늘 각각 23위와 24위에 입상해서 더욱 기쁜 날입니다. \n올해도 이 커피들은 coe가 아닌 다이렉트 트레이드 커피로 들어올 예정입니다. \n올해 엘살바도르 coe 1위를 한 Finca Santa Rosa를 비롯해 다이렉트 트레이드 농장들이 coe에서 계속 기쁜 소식을 전해"
+        }
+      ]
+    },
+    {
+      "id": "montecillos",
+      "name": "몬테시요스 (Montecillos)",
+      "country": "Honduras",
+      "region": "Intibucá · Pozo Negro",
+      "kind": "farm",
+      "aliases": [
+        "Montecillos",
+        "몬테시요스"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1508",
+          "date": "2019-03-03",
+          "sourceUrl": "https://www.instagram.com/p/BuiH5Jxnl0m/",
+          "quote": "은 라파스주의 산타아고 데 푸링글라고 반대편은 인티부카주의 포소 네그로다. 이 마을의 다섯 농장을 둘러 보고 마지막 몬테시요스 농장에서 포조 네그로 생산자 그룹과 새로운 프로젝트를 위해 회의를 가졌다. 몇몇으로 시작한 그룹은 현재 25명으로 늘어나 품질과 생산량을 늘리기 위해 함께 노력하고 있다. IHCAFE는 이들에 대한 기술 지원과 교육, 품질 피드백을 제공하고 로니는 이들이 생산하는 좋은 품질의 커피가 높은 가격에 팔릴 수 있게"
+        }
+      ]
+    },
+    {
+      "id": "la-huerta",
+      "name": "라 우에르타 (La Huerta)",
+      "country": "Honduras",
+      "region": "Santa Bárbara",
+      "kind": "farm",
+      "aliases": [
+        "라우에르타",
+        "라 우에르타"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-2021",
+          "date": "2017-05-12",
+          "sourceUrl": "https://www.instagram.com/p/BT-toO_AB3N/",
+          "quote": "커핑랩마다 전세계 스페셜티 커피 바이어들이 문전 성시를 이루는 곳이죠. \n커피 리브레는 2013년 CoE 1위를 한 라우에르타 농장을 제외하면 산타바바라 지역의 커피를 오랫동안 구매하고 있지 않습니다. \n대신 숨어 있는 보석을 찾겠다며 많은 사람들이 별 관심을 보이지 않는 지역인 Intibuca, Lempira, Yoro, El Paraiso, La Paz의 구석구석을 찾아 다니며 정말 작은 농장들의 소농들과 함께 해왔습니다. \n올초,"
+        }
+      ]
+    },
+    {
+      "id": "hartmann",
+      "name": "하트만 (Hartmann)",
+      "country": "Panama",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "하트만",
+        "Finca Hartman",
+        "Finca Hartmann"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-586",
+          "date": "2022-08-08",
+          "sourceUrl": "https://www.instagram.com/p/Cg92CQ-hwE8/",
+          "quote": "르는 내추럴 게이샤 부분에서도 8위를 차지했다. 얼마전 들여온 생두도 맛이 좋았는데 역시나!\n\n내추럴 게이샤 1위는 하트만 커피의 Guarumo 농장이 차지했다. 올해 베스트 오브 파나마는 하트만 커피의 두각이 두드러졌다. 수세식 게이샤 4위 Mi Finquita와 5위 Rocky Mountain, 내추럴 게이샤 5위 Hartmann 모두 하트만 커피가 운영하는 농장들이다. \n\n한편, 카르멘 농장은 수세식 게이샤 8위에 올랐다."
+        }
+      ]
+    },
+    {
+      "id": "el-fuerte",
+      "name": "엘 푸에르테 (El Fuerte)",
+      "country": "Bolivia",
+      "region": "Samaipata",
+      "kind": "farm",
+      "aliases": [
+        "엘푸에르테",
+        "엘 푸에르테",
+        "El Fuerte",
+        "fincaelfuerte"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1132",
+          "date": "2017-09-19",
+          "sourceUrl": "https://www.instagram.com/p/BZNED6DAcGm/",
+          "quote": "하지만 최근 위도 3-4도 아래 위치한 사마이파타가 새롭고 유력한 커피 산지로 떠오르고 있다. 제 작년부터 구매한 엘푸에르테 농장이 이 지역에 있다. 올해부터 수확을 시작한 Floripondio 와 Trapiche 농장에 방문했다. 고도는 1400-1700미터 정도지만 일교차가 심해 1600미터 이상에서는 냉해 피해가 좀 있었다. 새로 숲을 개간해 만든 농장이어서 토질이 좋은 데다가 기후 조건이 잘 맞는지 2년도 채 되지 않은 커피"
+        }
+      ]
+    },
+    {
+      "id": "floripondio",
+      "name": "플로리폰디오 (Floripondio)",
+      "country": "Bolivia",
+      "region": "Samaipata",
+      "kind": "farm",
+      "aliases": [
+        "Floripondio"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1132",
+          "date": "2017-09-19",
+          "sourceUrl": "https://www.instagram.com/p/BZNED6DAcGm/",
+          "quote": "Finca Trapiche and Floripondio in Samaipata Bolivia. 볼리비아의 전통적인 주요 산지는 카라나비다. 하지만 최근 위도 3-4도 아래 위치한 사마이파타가 새롭고 유력한 커피 산지로 떠오르고 있다. 제 작년부터 구매한 엘푸에르테 농장이 이 지역에 있다. 올해부터 수확을 시작한 Floripondio 와 Trapiche 농장에 방문했"
+        }
+      ]
+    },
+    {
+      "id": "trapiche",
+      "name": "트라피체 (Trapiche)",
+      "country": "Bolivia",
+      "region": "Samaipata",
+      "kind": "farm",
+      "aliases": [
+        "Trapiche"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1132",
+          "date": "2017-09-19",
+          "sourceUrl": "https://www.instagram.com/p/BZNED6DAcGm/",
+          "quote": "Finca Trapiche and Floripondio in Samaipata Bolivia. 볼리비아의 전통적인 주요 산지는 카라나비다. 하지만 최근 위도 3-4도 아래 위치한 사마이파타가 새롭고 유력한 커피 산지로 떠오르고 있다. 제 작년부터 구매한 엘푸에르테 농장이 이 지역에 있다. 올해부터 수확을 시작한 Floripondio 와"
+        }
+      ]
+    },
+    {
+      "id": "don-carlos",
+      "name": "돈 카를로스 (Don Carlos)",
+      "country": "Bolivia",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "돈 카를로스",
+        "돈카를로스",
+        "Don Carlos",
+        "fincadoncarlos"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1135",
+          "date": "2017-09-22",
+          "sourceUrl": "https://www.instagram.com/p/BZVDNk4AV5f/",
+          "quote": "Amazing Geisha jungle in finca Don Carlos. It is only 4 years old trees, had two times of pruning. Every coffee variety here is incredibly thrive. 내가 다녀 본 모든 커피 산지를 통틀어서 커피 나무가 볼리비아보다 잘 자라는 곳은 본 적이 없다. 보통 심은 지 3년 차면"
+        }
+      ]
+    },
+    {
+      "id": "santa-sofia",
+      "name": "산타 소피아 (Santa Sofia)",
+      "country": "Guatemala",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "산타 소피아",
+        "산타소피아"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1139",
+          "date": "2017-09-29",
+          "sourceUrl": "https://www.instagram.com/p/BZm1VKEAiol/",
+          "quote": "과테말라 뉴크랍 3종(산타 소피아, 엘 필라, 라 트리니다드)이 오늘 아침 커피리브레 파주공장에 입고되었습니다. 오늘 들어온 커피는 추석연휴 이후에  곧바로 만나보실 수 있도록 준비하겠습니다. \n#과테말라커피#guatemalacoffee #specialtycoffee #newcrop#greenbeans#뉴크랍#스페셜티커피#coffeelibre"
+        }
+      ]
+    },
+    {
+      "id": "las-brumas",
+      "name": "라스 브루마스 (Las Brumas)",
+      "country": "El Salvador",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "라스 브루마스",
+        "라스 부르마스",
+        "라스브루마스",
+        "Las Brumas",
+        "fincalasbrumas"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1175",
+          "date": "2017-11-13",
+          "sourceUrl": "https://www.instagram.com/p/BbaJ95ilVW8/",
+          "quote": "Finca Las Brumas, El Salvador. 어제 끝난 세계 바리스타 대회의 챔피언, Dale Harris가 사용한 원두는 커피 리브레의 오랜 다이렉트 트레이드 농장인 엘살바도르 라스 브루마스 농장의 SL28이다. \n그가 6명의 결선 진출 선수들 가운데 유일하게 게이샤가 아닌 커피로 우승한 것은 눈여겨 볼 필요가 있는 대목이다."
+        }
+      ]
+    },
+    {
+      "id": "la-ilusion",
+      "name": "라 일루시온 (La Ilusión)",
+      "country": "El Salvador",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "라 일루시온",
+        "라일루시온"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1175",
+          "date": "2017-11-13",
+          "sourceUrl": "https://www.instagram.com/p/BbaJ95ilVW8/",
+          "quote": "있는 대목이다. \n이로써 라스 브루마스의 농장주 에르네스토는 2011년 알레한드로가 세계 바리스타 대회 우승했을 때 라 일루시온 농장 커피를 사용했던 것에 더해 총 2번의 세계 대회 우승 생두를 배출한 농장주가 되었다. 참고로 이 두 번 모두 영국 Has Bean 커피가 로스터다. \n데일의 우승은 아직도 로야와 이상 기후의 타격으로부터 충분히 벗어나지 못한 엘살바도르 스페셜티 커피 농장주들에게 큰 힘이 되는 소식이 아닐 수 없다. \n몇"
+        }
+      ]
+    },
+    {
+      "id": "el-pantanal",
+      "name": "엘 판타날 (El Pantanal)",
+      "country": "Honduras",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "판타날",
+        "Finca Pantanal",
+        "El Pantanal"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1240",
+          "date": "2018-02-25",
+          "sourceUrl": "https://www.instagram.com/p/BfmUS3ngF0g/",
+          "quote": "Finca El Pantanal. 마리사벨과 모이세스 카바예로 부부의 커피 농장. 스텀타운, 카운터컬쳐 등과 15년 넘게 거래하고 있고 제 작년에는 CoE 1위의 영예를 안았다. 2012년에 처음 방문한 이후 매년 찾아 왔으니 이제 7번 째. 2013년 방문했을 때 새로 커피를 심은 로트라며 보여 준 곳에서는 어느덧 훌륭한 커피가 나와 CoE"
+        }
+      ]
+    },
+    {
+      "id": "el-arbol",
+      "name": "엘 아르볼 (El Arbol)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "엘아르볼",
+        "엘 아르볼",
+        "아르볼 농장",
+        "El Arbol"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1648",
+          "date": "2019-09-04",
+          "sourceUrl": "https://www.instagram.com/p/B1-p16wHUhK/",
+          "quote": "Finca El Arbol.\n아르볼은 스페인어로 나무라는 뜻이다. 오코탈에서 온두라스 국경쪽으로 차를 달려 30분쯤 포장도로와 비포장도로를 오르내리다 보면  아늑한 숲속 골짜기 즈음에 아르볼 농장이 나타난다. 농장 가운데는 거대한 나무가 서 있는데 이곳이 아르볼 농장인 이유를 알려주고 있다. 아르볼 농장은 호주의 사샤 세스틱과 니카라과의"
+        }
+      ]
+    },
+    {
+      "id": "el-pilar",
+      "name": "엘 필라 (El Pilar)",
+      "country": "Guatemala",
+      "region": "San Juan Sacatepéquez",
+      "kind": "farm",
+      "aliases": [
+        "엘필라",
+        "엘 필라",
+        "El Pilar"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1254",
+          "date": "2018-03-11",
+          "sourceUrl": "https://www.instagram.com/p/BgJm4l3Hkpk/",
+          "quote": "Finca El Pilar. 70 years old Bourbon tree. 엘필라 농장은 산후안 사카테페케즈 지역에 있다. 안티구아에서 멀지 않지만 지형이나 미시기후는 큰 차이가 있다. 일단 이곳은 고도가 높지만 경사가 완만한 고원 지대로 일교차가 매우 크고 안티구아 보다 더 건조하다. 발효하는데 보통 48시간 걸리고 날씨가 서늘하면"
+        }
+      ]
+    },
+    {
+      "id": "samaria",
+      "name": "사마리아 (Samaria)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "사마리아",
+        "Samaria"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1257",
+          "date": "2018-03-15",
+          "sourceUrl": "https://www.instagram.com/p/BgVBWFfnzni/",
+          "quote": "Octavio Peralta pointing Finca Samaria. 그가 가리키는 곳에 사마리아 농장이 있다. 딱 그만큼만 우리가 희망이라 부르는 것이 떨어져 있었으면 좋겠다. 너무 가까이도 말고 멀리도 말고. 보이지만 손에 잡히지 않게. 행복한 시간들이 저물고 있다. #nicaragua #니카라과 #coffeelibre #커피리브레"
+        }
+      ]
+    },
+    {
+      "id": "la-bendicion-luis",
+      "name": "라 벤디시온 (La Bendición · Luis)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "라벤디시온",
+        "라 벤디시온",
+        "La Bendicion",
+        "fincalabendicion"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1273",
+          "date": "2018-04-13",
+          "sourceUrl": "https://www.instagram.com/p/Bhf0rImApVG/",
+          "quote": "Finca La Bendicion 2018 CoE #1 6년 째 다이렉트 트레이드로 구매해온 니카라과 라벤디시온 농장이 방금 전 끝난 올해 CoE에서 91.8점으로 1위를 차지했다. 파카마라 내추럴. 농장주 루이스는 상장을 받자마자 내게 사진을 보내줬다. 루이스의 또다른 농장이자 우리가 오랫동안 구매해온 운레갈로데디오스 농장은 5위를 차지했다."
+        }
+      ]
+    },
+    {
+      "id": "la-reforma",
+      "name": "라 레포르마 (La Reforma)",
+      "country": "Guatemala",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "라레포르마",
+        "라 레포르마",
+        "La Reforma"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1313",
+          "date": "2018-06-08",
+          "sourceUrl": "https://www.instagram.com/p/BjvmSzbluo_/",
+          "quote": "Guatemala CoE #1 Finca La Reforma! 오늘 아침 호피가 밥 달라고 깨물고 괴롭혀서 일찍 깼다. 밥 챙겨주고 허무하게 앉아 있었는데 CoE 수상식이 열리고 있던 과테말라에서 다니엘로부터 반가운 소식이 왔다. 지난 5년간 다이렉트 트레이드로 거래해 온 라레포르마 농장이 게이샤로 1위를 차지했다고 한다. 한 가지 아쉬운 점은 매년 게이샤 수확량이 적어"
+        }
+      ]
+    },
+    {
+      "id": "don-antonio",
+      "name": "돈 안토니오 (Don Antonio)",
+      "country": "Costa Rica",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "돈 안토니오",
+        "돈안토니오",
+        "Don Antonio",
+        "fincadonantonio"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1323",
+          "date": "2018-06-25",
+          "sourceUrl": "https://www.instagram.com/p/Bkbgd2-FxAv/",
+          "quote": "Costarica CoE #1 Finca Don Antonio. 코스타리카 CoE 1위 돈 안토니오. 게이샤 + 허니 프로세스. 3박스 낙찰 받아 전량 로스팅. 한 배치 생두 값만 1200만원. 이번 주 매장 에스프레소 추출용 제외하고 원두 판매 중.호피가 너무 귀여워서 생두 가격 이하로 판매. 맛 괜찮음. 광고 끝.  #cupofexcellence #fincadonant"
+        }
+      ]
+    },
+    {
+      "id": "juan-martin",
+      "name": "후안 마르틴 (Juan Martin)",
+      "country": "Colombia",
+      "region": "Popayán",
+      "kind": "farm",
+      "aliases": [
+        "후안마르틴",
+        "후안 마르틴",
+        "후안 마르틴",
+        "Juan Martin"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1402",
+          "date": "2018-10-07",
+          "sourceUrl": "https://www.instagram.com/p/BonYMV_FRdu/",
+          "quote": "Finca Juan Martin, 1950m-2050m. 콜롬비아 파트너, 하이로가 작년에 구매한 농장. 농장 이름은 새로 태어난 조카 이름을 따서 지었다. 고도도 꽤 높고 포파얀에서 가깝고 햇빛 잘들고, 물 풍부하고, 화산재 토양에 오랫동안 소를 목축했던 곳이어서 토질 분석결과 유기성분 함량이 매우 높게 나왔다고 한다. 흙 색깔이 거의 검은"
+        }
+      ]
+    },
+    {
+      "id": "el-pino",
+      "name": "엘 피노 (El Pino)",
+      "country": "Honduras",
+      "region": "Intibucá · Pozo Negro",
+      "kind": "farm",
+      "aliases": [
+        "엘피노",
+        "엘 피노"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1508",
+          "date": "2019-03-03",
+          "sourceUrl": "https://www.instagram.com/p/BuiH5Jxnl0m/",
+          "quote": "스페셜티 커피 바이어들을 연결해 준다. 이들이 그룹을 만들어 스페셜티 커피를 생산하기로한 이유는 생존의 문제였다. 엘피노 농장의 에르난이 오늘 들려준 자신의 이야기는 꾸며내기라도 한 것처럼 드라마틱했다. 커피 농사를 아무리 열심히 지어도 기본적인 의식주가 해결이 안될 정도로 극심한 가난에 시달리던 그는 미국으로 밀입국하기 위해 브로커에게 돈을 주고 기차를 타러 멕시코로 향했지만 그마저도 실패하고 다시 피폐한 농장으로 돌아와야 했다"
+        }
+      ]
+    },
+    {
+      "id": "san-miguel",
+      "name": "산 미겔 (San Miguel)",
+      "country": "Guatemala",
+      "region": "Antigua",
+      "kind": "farm",
+      "aliases": [
+        "산미겔",
+        "산 미겔"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1518",
+          "date": "2019-03-08",
+          "sourceUrl": "https://www.instagram.com/p/Buu___oHJgZ/",
+          "quote": "5000 of beds. 안티구아 산미겔. 아프리칸 베드 5천 개. 이 정도면 세계에서 제일 큰 시설일듯. 산미겔의 일부인 산세바스티안 농장에서만 약 30 컨테이너를 생산하는데 과르디올라(기계식 건조기) 안쓰고 모두 파티오에서 이틀 동안 사전 건조하고 여기서 22일 내외로 건조한다. 꽤 더운 날씨였는데도 통풍이 잘 되서 내부가 전혀 덥지 않았다. 그래"
+        }
+      ]
+    },
+    {
+      "id": "san-sebastian",
+      "name": "산 세바스티안 (San Sebastian)",
+      "country": "Guatemala",
+      "region": "Antigua",
+      "kind": "farm",
+      "aliases": [
+        "산세바스티안",
+        "산 세바스티안"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1518",
+          "date": "2019-03-08",
+          "sourceUrl": "https://www.instagram.com/p/Buu___oHJgZ/",
+          "quote": "of beds. 안티구아 산미겔. 아프리칸 베드 5천 개. 이 정도면 세계에서 제일 큰 시설일듯. 산미겔의 일부인 산세바스티안 농장에서만 약 30 컨테이너를 생산하는데 과르디올라(기계식 건조기) 안쓰고 모두 파티오에서 이틀 동안 사전 건조하고 여기서 22일 내외로 건조한다. 꽤 더운 날씨였는데도 통풍이 잘 되서 내부가 전혀 덥지 않았다. 그래서 천천히 건조할 수 있는 것. 실제로 한 해 동안 안티구아 생두 써보니 상미 기간이 길어서 아"
+        }
+      ]
+    },
+    {
+      "id": "lo-prometido",
+      "name": "로 프로메티도 (Lo Prometido)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "로 프로메티도",
+        "로프로메티도",
+        "Lo Prometido"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1529",
+          "date": "2019-03-19",
+          "sourceUrl": "https://www.instagram.com/p/BvLk8NDH-xL/",
+          "quote": "Finca Lo Prometido. 약속된 농장이란 뜻이다. 현직 목사이기도한 루이스는 농장 이름을 성경에서 많이 가져왔다. 라벤디시온은 축복, 운레갈로데디오스는 신의 선물, 라에스페란자는 희망이란 뜻이다. 작년 CoE에서 라벤디시온이 1위, 운레갈로데디오스가 5위를 했다. 두 로트 모두 파카마라였다. 로 프로메티도 커피는 작년에 내가 매우 좋"
+        }
+      ]
+    },
+    {
+      "id": "la-esperanza",
+      "name": "라 에스페란자 (La Esperanza · Luis)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "라에스페란자",
+        "라 에스페란자"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "instagram-DXAv-G1CTiR",
+          "date": "2026-04-12",
+          "sourceUrl": "https://www.instagram.com/libre_pil/p/DXAv-G1CTiR/",
+          "quote": "여러 심사위원들과 나누어 구매하게 될 것 같다.\n\n올해 베스트 마라고 1위와 3위는 우리 거래 농장인 엘캄발라체와 라에스페란자가 각각 마라카투라 내추럴과 와시드로 차지했다. 1위는 와시드라고 해도 믿을만큼 깨끗하고 톤이 밝은 산미를 갖고 있었다. 3위는 작년도 CoE 1위 농장의 저력을 보여주기에 충분했다. 올해도 CoE 에 게이샤 와시드를 출품했다니 기대가 크다. 농장주 사무엘을 방문했다가 출품한 게이샤 커피를 맛봤는데 정말 훌륭했다"
+        }
+      ]
+    },
+    {
+      "id": "gangagiri",
+      "name": "강가기리 (Gangagiri)",
+      "country": "India",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "강가기리",
+        "Gangagiri"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1720",
+          "date": "2020-01-16",
+          "sourceUrl": "https://www.instagram.com/p/B7Wgtbtp_da/",
+          "quote": "아티칸, 강가기리 농장의 함시니와 아파두레이. 우리와 호주의 5 센스가 자신들에겐 첫 스페셜티 커피 고객이라며 지난 10년의 인연에 고맙다고 말했다. 우리야 말로 늘 좋은 커피에 감사하다고 답했다. 함시니와 아파두레이는 얼마 전 오픈한 커핑랩, 대폭 개선된 농장의 가공 설비들, 새로운 가공 방식 실험을 내게 꼭 보여주고 싶었다고"
+        }
+      ]
+    },
+    {
+      "id": "el-paraiso-co",
+      "name": "엘 파라이소 (El Paraiso · Colombia)",
+      "country": "Colombia",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "엘파라이소",
+        "엘 파라이소",
+        "Finca El Paraiso"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1638",
+          "date": "2019-08-24",
+          "sourceUrl": "https://www.instagram.com/p/B1iQ2weHBuT/",
+          "quote": "아이디어를 얻은 카보닉 마세레이션이 유행했지만 생각만큼 큰 호응을 얻지는 못했다. \n그러다가 등장한 것이 콜롬비아 엘파라이소 농장의 혁신적인 더블 아나에어로빅 커피다. 작년 CoE에서의 에피소드(10등인데 옥션 최고 가격 낙찰)와 시장에서의 즉각적이고 폭발적인 반응은 큰 화젯거리가 되었다. 하지만 정작 가공방식에 대한 정보는 철저한 비밀에 부쳐져 제대로 알려진 것이 없었다. 시중에는 가향이네 아니네, 커피라고 볼 수 있네 없네 온갖"
+        }
+      ]
+    },
+    {
+      "id": "un-regalo",
+      "name": "운 레갈로 데 디오스 (Un Regalo de Dios)",
+      "country": "Nicaragua",
+      "region": "Mozonte",
+      "kind": "farm",
+      "aliases": [
+        "운레갈로데디오스",
+        "운레갈로 데디오스",
+        "운레갈로 데 디오스",
+        "Un Regalo de Dios"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-788",
+          "date": "2020-06-04",
+          "sourceUrl": "https://www.instagram.com/p/CA_c2ulJ-_8/",
+          "quote": "방금 전 니카라과 컵오브엑셀런스 심사 결과가 발표됐다. 작년에 이어 루이스의 Un Regalo de Dios 농장이 내추럴 마라카투라로 또다시 1위를 차지했다. 91.2점으로 유일한 프레지덴셜 커피다. 9년 째 거래하는 다이렉트 트레이드 농장으로서 자랑스럽다. 역시나 9년 째 거래하는 Santa Gema 농장은 4위를 차지했다. 산타 헤마는 핀카 리브레 아래 쪽으로 경계를 맞대고 있는 이웃 농장이기도 하다. 이 농장들"
+        }
+      ]
+    },
+    {
+      "id": "santa-lucia",
+      "name": "산타 루치아 (Santa Lucia)",
+      "country": "Honduras",
+      "region": "Comayagua",
+      "kind": "farm",
+      "aliases": [
+        "산타 루치아",
+        "산타루치아",
+        "Finca Santa Lucia"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-346",
+          "date": "2021-08-20",
+          "sourceUrl": "https://www.instagram.com/p/CSx0ksCpZZA/",
+          "quote": "두라스 낙찰]\n\n오늘 새벽 끝난 CoE 옥션에서 온두라스 1위를 유코 선생님과 함께 낙찰 받았다. 와시드 게이샤다. 산타 루치아 농장은 2019년에도 1위를 했다.\n\n오랜 친구 에르윈 미에리쉬 가족의 농장이다. 그가 6-7년 전 이 농장을 구매한 직후 방문했다. 그 때 보여준 게이샤 묘목들이 자라 이제 멋진 커피를 생산하고 있다. 로트 사이즈가 무척 작다. 비행기로 가져와 빨리 선보여 드릴 생각이다. 90.67점😉\n\n@cupofexcel"
+        }
+      ]
+    },
+    {
+      "id": "el-morito",
+      "name": "엘 모리토 (El Morito)",
+      "country": "Guatemala",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "엘모리토",
+        "엘 모리토",
+        "El Morito"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1346",
+          "date": "2018-07-18",
+          "sourceUrl": "https://www.instagram.com/p/BlW2QLYFtYw/",
+          "quote": "[Guatemala CoE] 오늘 새벽 끝난 CoE 경매에서 3위 El Morito와 6위 El Morito를 낙찰 받았습니다. 네. 같은 농장입니다. 엘카페 사장님이 어제 같은 거 비딩하다 잠들었다며 오늘 아침, 좀 내놓라고 해서 3위 3박스 드리기로 했습니다. 잠시 후 CoE에서 연락와서 1위 좀 사라고 해서 2박스 가져오기로 했습니다. 암튼 그래서 올해 과테말라 CoE는 1,3,6위로 준"
+        }
+      ]
+    },
+    {
+      "id": "el-abuelo",
+      "name": "엘 아부엘로 (El Abuelo)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "엘아부엘로",
+        "엘 아부엘로",
+        "El Abuelo"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-679",
+          "date": "2023-03-09",
+          "sourceUrl": "https://www.instagram.com/p/CpjZs5hMJmj/",
+          "quote": "작년 우리가 낙찰 받았던 CoE 1위 농장 El Avion과 그 이웃 농장 El Abuelo에 다녀왔다.\n\n이 농장들에는 유난히 소나무가 많아서 커피 나무에 그늘과 낙엽을 제공하고 있다. 사실 소나무와 커피는 썩 잘 어울리는 조합이 아니라는 의견도 있다. 소나무 낙엽은 썩는데 3년이나 걸려 커피 나무에 제대로 영양을 제공하기 쉽지 않고 땅을 산성으로 만든다는 것이다. 하지만  이 의견이 사실이라고 해도"
+        }
+      ]
+    },
+    {
+      "id": "el-avion",
+      "name": "엘 아비욘 (El Avion)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "엘아비욘",
+        "엘 아비욘",
+        "엘 아비용",
+        "El Avion"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-561",
+          "date": "2022-06-25",
+          "sourceUrl": "https://www.instagram.com/p/CfNv7vXpu2A/",
+          "quote": "[니카라과 CoE 소식]\n\n오늘 새벽 수상식이 끝나자마자 파트너들이 기쁜 소식을 전해왔다.\n\n1위 El Avion 농장은 핀카 리브레 인근에 있다. 3년 전부터 싱글 오리진뿐만 아니라 카보닉 마세레이션 로트에 사용해왔다. 늘 품질이 좋아서 내심 놀랬는데 올해 결국 우승을 차지했다. 올해 엘 아비용은 카보닉 마세레이션 로트, 리틀 레드 라이딩 후드(우리가 알고 있는 ‘빨간 망토’ 이야기 원제)로 들어올 예정이다.\n\n3위는 우"
+        }
+      ]
+    },
+    {
+      "id": "carmen",
+      "name": "카르멘 (Carmen)",
+      "country": "Panama",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "카르멘",
+        "Carmen Geisha"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-586",
+          "date": "2022-08-08",
+          "sourceUrl": "https://www.instagram.com/p/Cg92CQ-hwE8/",
+          "quote": "Rocky Mountain, 내추럴 게이샤 5위 Hartmann 모두 하트만 커피가 운영하는 농장들이다. \n\n한편, 카르멘 농장은 수세식 게이샤 8위에 올랐다.\n\n오랫동안 거래해온 농장들이 좋은 성과를 내주어 기쁘다. 아우로마르, 하트만, 카르멘 게이샤 2차분이 항공으로 곧 들어온다. 이번에 1위했다고 생두/원두 판매 가격 올리냐? 안올린다. \n\n#베스트오브파나마 #커피리브레 #파나마게이샤#하트만 #아우로마르"
+        }
+      ]
+    },
+    {
+      "id": "santa-maria-lourdes",
+      "name": "산타 마리아 데 루르데스 (Santa Maria de Lourdes)",
+      "country": "국가 미확인",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "Santa Maria de Lourdes"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-680",
+          "date": "2023-03-11",
+          "sourceUrl": "https://www.instagram.com/p/CpoOnqKJv-W/",
+          "quote": "Finca Santa Maria de Lourdes.\n\n나의 대부이기도한 옥타비오 형님이 어머니의 이름을 따서 일군 농장. 수확은 한참 진행중이고 마침 발효를 끝낸 커피를 씻고 있었다. 와시드라는 가공방식 이름이 유래한 장면이다.\n\n한쪽에 물을 틀어놓고 정말 한참을 씻어야 한다. 채널은 구부러지고 경사가 있어 가벼운 커피일수록 더 널리 떠내려가고, 속이 비었거나"
+        }
+      ]
+    },
+    {
+      "id": "santa-gema",
+      "name": "산타 헤마 (Santa Gema)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "산타 헤마",
+        "산타헤마",
+        "Santa Gema"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-788",
+          "date": "2020-06-04",
+          "sourceUrl": "https://www.instagram.com/p/CA_c2ulJ-_8/",
+          "quote": "으로 유일한 프레지덴셜 커피다. 9년 째 거래하는 다이렉트 트레이드 농장으로서 자랑스럽다. 역시나 9년 째 거래하는 Santa Gema 농장은 4위를 차지했다. 산타 헤마는 핀카 리브레 아래 쪽으로 경계를 맞대고 있는 이웃 농장이기도 하다. 이 농장들의 뉴크롭은 올해도 굉장하다. 안그래도 올해 니카라과 내추럴이 유난히 훌륭해서 넉넉하게 구매했다. 감사하고 기분 좋은 소식이다.\n#nicaragua #cupofexcellence #fincaunre"
+        }
+      ]
+    },
+    {
+      "id": "mileydi",
+      "name": "밀레이디 (Mileydi)",
+      "country": "El Salvador",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "Mileydi"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-833",
+          "date": "2020-08-04",
+          "sourceUrl": "https://www.instagram.com/p/CDdVOe7pdd6/",
+          "quote": "hregram • @jinho_elcafe 지난주에 커피리브레, 커피몽타쥬 등 다수의 업체와 엘살바도르 COE 3위 Mileydi농장의 커피를 낙찰받았습니다._x000D_\n개인적으로 엘살바도르는 버본품종과 파카마라 품종을 좋아해서 사심이 들어간 낙찰을...ㅎㅎ_x000D_\n_x000D_\n농장주 에베르 레오넬 디아스 페레스(Ever Leonel Diaz Perez)에 대한 인터뷰 내용을 첨가 해드립니다._x000D_\n_x000D_\n_x000"
+        }
+      ]
+    },
+    {
+      "id": "guarumo",
+      "name": "과르모 (Guarumo)",
+      "country": "Panama",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "과르모",
+        "Guarumo"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-586",
+          "date": "2022-08-08",
+          "sourceUrl": "https://www.instagram.com/p/Cg92CQ-hwE8/",
+          "quote": "이샤 부분에서도 8위를 차지했다. 얼마전 들여온 생두도 맛이 좋았는데 역시나!\n\n내추럴 게이샤 1위는 하트만 커피의 Guarumo 농장이 차지했다. 올해 베스트 오브 파나마는 하트만 커피의 두각이 두드러졌다. 수세식 게이샤 4위 Mi Finquita와 5위 Rocky Mountain, 내추럴 게이샤 5위 Hartmann 모두 하트만 커피가 운영하는 농장들이다. \n\n한편, 카르멘 농장은 수세식 게이샤 8위에 올랐다.\n\n오랫동안 거래해온 농장"
+        }
+      ]
+    },
+    {
+      "id": "mi-finquita",
+      "name": "미 핀키타 (Mi Finquita)",
+      "country": "Panama",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "미 핀키타",
+        "미핀키타",
+        "Mi Finquita"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-586",
+          "date": "2022-08-08",
+          "sourceUrl": "https://www.instagram.com/p/Cg92CQ-hwE8/",
+          "quote": "의 Guarumo 농장이 차지했다. 올해 베스트 오브 파나마는 하트만 커피의 두각이 두드러졌다. 수세식 게이샤 4위 Mi Finquita와 5위 Rocky Mountain, 내추럴 게이샤 5위 Hartmann 모두 하트만 커피가 운영하는 농장들이다. \n\n한편, 카르멘 농장은 수세식 게이샤 8위에 올랐다.\n\n오랫동안 거래해온 농장들이 좋은 성과를 내주어 기쁘다. 아우로마르, 하트만, 카르멘 게이샤 2차분이 항공으로 곧 들어온다. 이번에 1위했다고"
+        }
+      ]
+    },
+    {
+      "id": "rocky-mountain",
+      "name": "로키 마운틴 (Rocky Mountain)",
+      "country": "Panama",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "로키 마운틴",
+        "로키마운틴",
+        "Rocky Mountain"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-586",
+          "date": "2022-08-08",
+          "sourceUrl": "https://www.instagram.com/p/Cg92CQ-hwE8/",
+          "quote": "했다. 올해 베스트 오브 파나마는 하트만 커피의 두각이 두드러졌다. 수세식 게이샤 4위 Mi Finquita와 5위 Rocky Mountain, 내추럴 게이샤 5위 Hartmann 모두 하트만 커피가 운영하는 농장들이다. \n\n한편, 카르멘 농장은 수세식 게이샤 8위에 올랐다.\n\n오랫동안 거래해온 농장들이 좋은 성과를 내주어 기쁘다. 아우로마르, 하트만, 카르멘 게이샤 2차분이 항공으로 곧 들어온다. 이번에 1위했다고 생두/원두 판매 가격 올리냐? 안올"
+        }
+      ]
+    },
+    {
+      "id": "jesus-mountain",
+      "name": "헤수스 마운틴 (Jesus Mountain)",
+      "country": "국가 미확인",
+      "region": "Jalapa",
+      "kind": "farm",
+      "aliases": [
+        "헤수스 마운틴",
+        "헤수스마운틴",
+        "Jesus Mountain"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-189",
+          "date": "2024-09-27",
+          "sourceUrl": "https://www.instagram.com/p/DAarQ_WpjB_/",
+          "quote": "Finca Jesus mountain.\n\nCoE 2021 1위, 2022 8위, 2023 4위, 2024 8위.\n지난 4년 동안 올해 포함해 3번을 낙찰 받았다.\n이 정도면 많이 좋아하는거다.\n올해 CoE에서 헤수스 마운틴은 내 마음의 1등이었다. \n늘 와시드 파카마라. 곧 컨테이너가 부산에 들어온다.\n\n헤수스 마운틴은 할라파 지역에 있는데 오코탈"
+        }
+      ]
+    },
+    {
+      "id": "la-loma",
+      "name": "라 로마 (La Loma)",
+      "country": "Honduras",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "La Loma"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-239",
+          "date": "2025-03-17",
+          "sourceUrl": "https://www.instagram.com/p/DHTP02mABxk/",
+          "quote": "라스 베스트 파라이네마 탑10 커핑에서 22년차 내 커피 인생에서 가장 높은 커핑 점수를 줬다. 93점.\nFinca La Loma. Washed. 고도 1300미터. \n\n이 커피는 첫 숟가락부터 맛있다, 굉장하다는 느낌을 넘어서 경외감과 당혹감을 불러일으켰다. 이런 커피를 만날 수 있어서 감사했고 다시는 만날 수 없을 것 같아 슬펐다.\n\n삶의 유한함과 커피의 신비함을 느끼게 하는 커피였다. 커핑 노트를 적는게 무의미하게 느껴지고 주변이 순"
+        }
+      ]
+    },
+    {
+      "id": "rikibamba",
+      "name": "리키밤바",
+      "country": "국가 미확인",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "리키밤바"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-122",
+          "date": "2024-03-09",
+          "sourceUrl": "https://www.instagram.com/p/C4SPwmmgZfT/",
+          "quote": ".\n\n수확 초반 샘플인데도 불구하고 품질이 너무 좋아서 즉석에서 최고 커피를 선정하는 경연에 돌입했다. 1위 커피는 리키밤바 농장의 IH90 카티모르 로트가 차지했는데, 나와 로니 모두 90점을 줬다. 올해 에티오피아, 케냐에서도 경험하지 못한 높은 점수다. \n\n커핑 끝나고 마을 파티가 열렸다. 산꼭대기 마을이라 해가 빨리졌다. 조명을 아직 달지 못한 컴컴한 창고에서 마을 사람들은 테이블에 다 앉지도 못했다. 쌓아둔 커피 백과 벽에"
+        }
+      ]
+    },
+    {
+      "id": "las-palmeras",
+      "name": "라스 팔메라스 (Las Palmeras)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "라스 팔메라스",
+        "라스팔메라스"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-123",
+          "date": "2024-03-10",
+          "sourceUrl": "https://www.instagram.com/p/C4UiwrZsP4c/",
+          "quote": "기회를 주셨다. 이번 대회 우승은 1회 대해 우승자인 누에바 루즈 농장이 차지했고 2위는 역시 매년 사랑받고 있는 라스 팔메라스 농장이 차지했다. 매년 구매해온 농장들이 좋은 성적을 거둬 기뻤다.\n\n시상이 끝나고 나는 탑텐 로트들은 심사위원들끼리 골고루 나눠 구매하자고 제안했지만 다음 날 로니에게서는 다른 내용의 메일이 도착해 있었다. 다른 심사위원들과 논의한 끝에 창립자로서 나에게 로트를 우선 선택할 기회를 주기로했다는 것이다. 무척"
+        }
+      ]
+    },
+    {
+      "id": "nueva-luz",
+      "name": "누에바 루즈 (Nueva Luz)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "누에바 루즈",
+        "누에바루즈"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-123",
+          "date": "2024-03-10",
+          "sourceUrl": "https://www.instagram.com/p/C4UiwrZsP4c/",
+          "quote": "내가 창립자라고, 우승한 생산자에게 수상할 기회와 대표 발언할 기회를 주셨다. 이번 대회 우승은 1회 대해 우승자인 누에바 루즈 농장이 차지했고 2위는 역시 매년 사랑받고 있는 라스 팔메라스 농장이 차지했다. 매년 구매해온 농장들이 좋은 성적을 거둬 기뻤다.\n\n시상이 끝나고 나는 탑텐 로트들은 심사위원들끼리 골고루 나눠 구매하자고 제안했지만 다음 날 로니에게서는 다른 내용의 메일이 도착해 있었다. 다른 심사위원들과 논의한 끝에 창립자로서"
+        }
+      ]
+    },
+    {
+      "id": "las-5-hermanas",
+      "name": "라스 5 에르마나스 (Las 5 Hermanas)",
+      "country": "Honduras",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "라스 5 에르마나스",
+        "라스5에르마나스"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "instagram-DXAqZdqCfxc",
+          "date": "2026-04-12",
+          "sourceUrl": "https://www.instagram.com/libre_pil/p/DXAqZdqCfxc/",
+          "quote": "어느 때보다 치열할 것 같은데 조금씩이라도 다양한 로트를 소개해 보려고 한다.\n\n올해 1위는 작년에 7위를 했던 “라스 5 에르마나스” 농장이 차지했다. 5자매 농장이란 뜻인데 커피에 향수를 떨어뜨린 것 같은 폭발적인 향미와 복합적인 산미, 단맛을 갖고 있었다. 내추럴을 선호하는 중국 친구들을 비롯해 심사위원 전원이 90점 이상을 준 경이로운 커피였다.\n\n게이샤는 정말 특이하고 뛰어나며 커피를 잘 모르는 사람마저 매혹시키는 매력있는 품종이 확"
+        }
+      ]
+    },
+    {
+      "id": "betadakhan",
+      "name": "베타다칸 (Betadakhan · Bhadra)",
+      "country": "India",
+      "region": "Baba Budangiri",
+      "kind": "farm",
+      "aliases": [
+        "베타다칸"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1719",
+          "date": "2020-01-15",
+          "sourceUrl": "https://www.instagram.com/p/B7TnBY4p6Py/",
+          "quote": "어떻게 될것 같냐고 차마 물어볼 수는 없었다. 다행히 우리가 주로 구매하는, 고도가 높고 경사진 바드라 농장 소속의 베타다칸 농장은 비 피해가 덜하다고 했다. 수쿠마르는 우리가 구매할 양은 충분히 확보해 놓을테니 걱정하지 말고, 로트 선택권도 우리에게 가장 먼저 줄테니 마음에 드는 것으로 골라 보라고 했다. 참 감사한 일이다. 작년에는 바드라 농장에서 첫해 샀던 양의 40배를 샀다. 올해는 더 많이 사야한다. 나는 그 사이 구매량이"
+        }
+      ]
+    },
+    {
+      "id": "wush-wush",
+      "name": "우쉬우쉬",
+      "country": "Ethiopia",
+      "region": "Kaffa",
+      "kind": "farm",
+      "aliases": [
+        "우쉬우쉬 농장"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-80",
+          "date": "2023-11-30",
+          "sourceUrl": "https://www.instagram.com/p/C0PhjtLIdoc/",
+          "quote": "어쨌거나 칼디 이야기는 요즘 일부러 만들어도 그 보다 멋지게 지어내기 쉽지 않을 정도로 짧고 강렬하고 매혹적이다.\n\n우쉬우쉬 농장에 방문했다. 고도가 2천 미터급인데 카파 지역은 벌써 수확이 거의 끝나간다. 내어 준 커피가 유난히 맛있어 샘플을 얻어왔다. 다음 주 아디스에 가면 커핑해 봐야지."
+        }
+      ]
+    },
+    {
+      "id": "banaderos",
+      "name": "바냐데로스",
+      "country": "Honduras",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "바냐데로 농장",
+        "바냐데로스 농장"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1242",
+          "date": "2018-02-28",
+          "sourceUrl": "https://www.instagram.com/p/Bfumn5DAZ2z/",
+          "quote": "판매하는 경우는 본 적이 없다. 이 농장들의 존재를 처음 알게된 것은 작년 이맘 때였다. 1700미터 부근에 위치한 바냐데로 농장에 왔다가 건너편 산 꼭대기에 커피 밭처럼 짙은 녹색으로 보이는 것들이 있길래 물었더니 로니가 아니란다. 2000m, 너무 높아서 커피가 자라지 못한다며. 그러자 옆에 있던 바냐데로 농장주가 거기 커피 기르는 사람들이 몇몇 있는 걸로 알고 있다고 했다. 보통 같았으면 바로 가보자고 했을텐데 이미 해가 지고 있었고"
+        }
+      ]
+    },
+    {
+      "id": "sin-limites",
+      "name": "신 리미테스 (Sin Limites)",
+      "country": "Costa Rica",
+      "region": "Naranjo · West Valley",
+      "kind": "mill",
+      "aliases": [
+        "신 리미테스",
+        "신리미테스",
+        "Sin Limites"
+      ],
+      "description": "원문에서 이름을 확인한 가공소. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1238",
+          "date": "2018-02-21",
+          "sourceUrl": "https://www.instagram.com/p/BfczdZogRQy/",
+          "quote": "Micro mill Sin Limites. 오전에 샘플 50개 간단하게 커핑하고 웨스트 밸리를 찾았다. 웨스트 밸리 중에서도 작은 마을에 속하는 나랑호는 Herbazu의 레온시오, Vista al Valle의 피델, Sumava의 몬테 야노 보니토 같은 CoE 1위 커피들을 거침 없이 쏟아 냈다. 이 밖에도 이 농장들 사이사이에는 신 리미테스, 헤네시"
+        }
+      ]
+    },
+    {
+      "id": "la-soledad",
+      "name": "라 솔레다드 (La Soledad)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "라 솔레다드",
+        "라솔레다드"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-561",
+          "date": "2022-06-25",
+          "sourceUrl": "https://www.instagram.com/p/CfNv7vXpu2A/",
+          "quote": ". 루이스가 함께 운영하는 라 벤디시온 농장(CoE 1위 경력)과 함께 언제나 믿고 마실 수 있는 농장이다.\n\n6위 라 솔레다드, 10위 로스 수야테스, 13위 라벤디시온(위와 다른 농장), 18위 로스 피리네오스, 19위 엘 레쿠에르도는 지난 몇 년 동안 카보닉 마세레이션 로트들과 싱글 오리진으로 선보였던 농장들이다. 올해는 이 중 3 농장을 싱글 오리진 로트로 들여올 예정이다.\n\n올해 니카라과 누에바 세고비아 지역은 작년 허리케인과"
+        }
+      ]
+    },
+    {
+      "id": "los-suyates",
+      "name": "로스 수야테스 (Los Suyates)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "로스 수야테스",
+        "로스수야테스"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-561",
+          "date": "2022-06-25",
+          "sourceUrl": "https://www.instagram.com/p/CfNv7vXpu2A/",
+          "quote": "하는 라 벤디시온 농장(CoE 1위 경력)과 함께 언제나 믿고 마실 수 있는 농장이다.\n\n6위 라 솔레다드, 10위 로스 수야테스, 13위 라벤디시온(위와 다른 농장), 18위 로스 피리네오스, 19위 엘 레쿠에르도는 지난 몇 년 동안 카보닉 마세레이션 로트들과 싱글 오리진으로 선보였던 농장들이다. 올해는 이 중 3 농장을 싱글 오리진 로트로 들여올 예정이다.\n\n올해 니카라과 누에바 세고비아 지역은 작년 허리케인과 이상 기후로 인해 수확량"
+        }
+      ]
+    },
+    {
+      "id": "los-pirineos-ni",
+      "name": "로스 피리네오스 (Nicaragua)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "로스 피리네오스",
+        "로스피리네오스"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-561",
+          "date": "2022-06-25",
+          "sourceUrl": "https://www.instagram.com/p/CfNv7vXpu2A/",
+          "quote": "마실 수 있는 농장이다.\n\n6위 라 솔레다드, 10위 로스 수야테스, 13위 라벤디시온(위와 다른 농장), 18위 로스 피리네오스, 19위 엘 레쿠에르도는 지난 몇 년 동안 카보닉 마세레이션 로트들과 싱글 오리진으로 선보였던 농장들이다. 올해는 이 중 3 농장을 싱글 오리진 로트로 들여올 예정이다.\n\n올해 니카라과 누에바 세고비아 지역은 작년 허리케인과 이상 기후로 인해 수확량이 거의 절반 가까이 줄었다.\n\n핀카 리브레도 마찬가지였고 올해"
+        }
+      ]
+    },
+    {
+      "id": "el-recuerdo",
+      "name": "엘 레쿠에르도 (El Recuerdo)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "엘 레쿠에르도",
+        "엘레쿠에르도"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-561",
+          "date": "2022-06-25",
+          "sourceUrl": "https://www.instagram.com/p/CfNv7vXpu2A/",
+          "quote": "6위 라 솔레다드, 10위 로스 수야테스, 13위 라벤디시온(위와 다른 농장), 18위 로스 피리네오스, 19위 엘 레쿠에르도는 지난 몇 년 동안 카보닉 마세레이션 로트들과 싱글 오리진으로 선보였던 농장들이다. 올해는 이 중 3 농장을 싱글 오리진 로트로 들여올 예정이다.\n\n올해 니카라과 누에바 세고비아 지역은 작년 허리케인과 이상 기후로 인해 수확량이 거의 절반 가까이 줄었다.\n\n핀카 리브레도 마찬가지였고 올해는 디카페인으로 만들 물"
+        }
+      ]
+    },
+    {
+      "id": "el-cambalache",
+      "name": "엘 캄발라체 (El Cambalache)",
+      "country": "Nicaragua",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "엘캄발라체",
+        "엘 캄발라체"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "instagram-DXBQ9ftlqO7",
+          "date": "2026-04-12",
+          "sourceUrl": "https://www.instagram.com/libre_pil/p/DXBQ9ftlqO7/",
+          "quote": "비가 오랜 기일 동안 내렸기 때문이다.\n\n한 생산자는 이런 흉작이 커피 농사 28년만에 처음 겪는 일이라고 했다. 엘캄발라체 농장의 사무엘은 2008년에 꽤 심각한 흉작이 들었는데 그 때는 비료라도 싸서 다행이었다고 말했다. 최근 전쟁으로 비료값이 폭등했는데 핀카 리브레 포함한 농가 타격이 상당하다. 커피 농장 운영비용에서 가장 큰 비중을 차지하는 인건비가 계속 오르고 있는데도 일손 구하기가 점점 더 힘들어지고 있다. 이런 현상은 기"
+        }
+      ]
+    },
+    {
+      "id": "los-pinos",
+      "name": "로스 피노스 (Los Pinos)",
+      "country": "Honduras",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "로스 피노스",
+        "로스피노스"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-0",
+          "date": "2023-06-30",
+          "sourceUrl": "https://www.instagram.com/p/CuGLuAKpGi5/",
+          "quote": "구치 추천으로 두 박스를 받기로 하고 입찰에 들어갔다. 노지 커피는 6,7,8위 티피카 로트들을 낙찰 받았다. 7위 로스 피노스 농장의 티피카는 매년 구매하는 커피다. 일찌감치 배에 실려 지금 태평양을 건너고 있다.\n\n온두라스 커피 최고👍😉"
+        }
+      ]
+    },
+    {
+      "id": "pino-de-oro",
+      "name": "피노 데 오로 (Pino de Oro)",
+      "country": "Honduras",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "Pino de Oro",
+        "피노 데 오로",
+        "피노데오로"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-0",
+          "date": "2023-06-30",
+          "sourceUrl": "https://www.instagram.com/p/CuGLuAKpGi5/",
+          "quote": "Honduras CoE 옥션이 오늘 새벽 끝났다. 1위, 4위, 6위를 낙찰 받았다. 1위는 Pino de Oro 농장의 파카마라다. 수많은 게이샤 로트들을 압도했다. \n\n2011년 CoE에서 오스카의 이 농장이 1위 했을 때는 품종이 파카스였다. 그 해 유코 선생님과 함께 낙찰 받았고 그 다음 해부터 몇 년간 방문해 커피를 구매했다. 12년 전 오스카의 사진을 찾았는데, 어제 보내온 사진과 비교해 보면 뭔가 찡한 느낌이"
+        }
+      ]
+    },
+    {
+      "id": "el-injerto",
+      "name": "인헤르토 (El Injerto)",
+      "country": "Guatemala",
+      "region": "지역 미확인",
+      "kind": "farm",
+      "aliases": [
+        "인헤르토 농장",
+        "El Injerto"
+      ],
+      "description": "원문에서 이름을 확인한 농장. 연도별 원문 발췌와 근거 게시물을 연결했습니다.",
+      "evidence": [
+        {
+          "postId": "legacy-1643",
+          "date": "2019-08-30",
+          "sourceUrl": "https://www.instagram.com/p/B1xUrtYnfQh/",
+          "quote": "것이다. 당연히 자가 면역력은 영양 상태에 큰 영향을 받는다. 접붙이기는 스페인어로 ‘인헤르토’라고 한다. 예전에 인헤르토 농장에 방문했을 때 농장주는 자기 농장을 성공적으로 이끈 최고의 비법은 접목이라고 얘기했다. #커피리브레 #coffeelibre #과테말라커피 #커피접목"
+        }
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "name": "돈 카이토",
+      "reason": "원문이 농장이 아니라 로트라고 명시합니다.",
+      "postId": "legacy-1310"
+    },
+    {
+      "name": "라 벤디시온 · CoE 2022 13위",
+      "reason": "루이스의 라 벤디시온과 다른 농장이라고 명시하나 농장주·식별 정보가 없습니다. 이름만으로 합치지 않습니다.",
+      "postId": "legacy-561"
+    },
+    {
+      "name": "마초 (Macho)",
+      "reason": "생산자의 별명인지 농장 별도 이름인지 불분명합니다. 산타 로사 1900과 자동 분리하지 않습니다.",
+      "postId": "legacy-1960"
+    },
+    {
+      "name": "나나 농장",
+      "reason": "단 한 번의 표기로 식별이 불명확합니다. 확인 전 별도 농장을 만들지 않습니다.",
+      "postId": "legacy-599"
+    },
+    {
+      "name": "아라쿠 · 예가체프 · 구지 · 시다모",
+      "reason": "지역·조직 범주로 농장 수에 포함하지 않았습니다."
+    },
+    {
+      "name": "헤네시스 · 에르바주 · 비스타 알 바예 · 수마바",
+      "reason": "농장·가공소·소유 로트 관계 추가 점검 필요. 명칭을 농장으로 단정하지 않았습니다.",
+      "postId": "legacy-1238"
+    }
+  ]
+}

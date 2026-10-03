@@ -2,6 +2,7 @@ import { snapshot } from './mock';
 import type { ArchiveProvider, Post, SearchResult } from './types';
 import { adaptLegacy } from './legacy';
 import { mergeUpdates } from './updates';
+import { indexFarms } from './farms';
 const groups=[['기후','날씨','강우','비','우기','가뭄','개화','수확 지연','미기후'],['핑크 버번','pink bourbon','품종','버번','bourbon'],['가공','발효','워시드','washed','허니','honey','내추럴','natural','건조'],['콜롬비아','colombia','우일라','huila'],['코스타리카','costa rica','tarrazú','타라주'],['과테말라','guatemala','huehuetenango'],['에티오피아','ethiopia','sidama'],['생산자','가족','공동체','세대'],['고도','토양','그늘']];
 export function searchLocal(query:string,posts:Post[]):SearchResult {
  const q=query.toLowerCase().trim();
@@ -22,8 +23,8 @@ export function getArchiveProvider():ArchiveProvider{
   if(!response.ok)throw new Error('기존 기록을 불러오지 못했습니다.');
   const archive=adaptLegacy(await response.json(),base);
   const updates=await fetch(`${base}archive_updates.json`,{cache:'no-cache'});
-  if(updates.status===404)return archive;
+  if(updates.status===404)return indexFarms(archive);
   if(!updates.ok)throw new Error('추가 기록을 불러오지 못했습니다.');
-  return mergeUpdates(archive,await updates.json());
+  return indexFarms(mergeUpdates(archive,await updates.json()));
  },async search(query,posts){return searchLocal(query,posts)}};
 }
