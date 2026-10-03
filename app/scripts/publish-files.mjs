@@ -1,0 +1,10 @@
+import { spawnSync } from 'node:child_process';
+import { cpSync, copyFileSync, writeFileSync, existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+if(!existsSync(resolve('..','.git'))||!existsSync(resolve('..','archive_data.json')))throw new Error('Run this script from the repository app/ directory.');
+const build=spawnSync(process.execPath,[process.env.npm_execpath,'run','build'],{stdio:'inherit'});
+if(build.status!==0)process.exit(build.status||1);
+copyFileSync('dist/index.html','../index.html');
+cpSync('dist/assets','../assets',{recursive:true});
+writeFileSync('../.nojekyll','');
+console.log('GitHub Pages root updated. Review, commit, and push to publish.');
