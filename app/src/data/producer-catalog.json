@@ -1,0 +1,369 @@
+{
+  "reviewedAt": "2026-10-04",
+  "producers": [
+    {
+      "id": "producer-rodrigo",
+      "name": "로드리고",
+      "aliases": [
+        "로드리고"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-1856",
+          "date": "2016-09-04",
+          "sourceUrl": "https://www.instagram.com/p/BJ7IFqvhK_X/",
+          "quote": "Juan Valdez y Café Libre. Viva Colombia! 제작년부터 매년 쓰고 있는 콜롬비아 핑크 부르봉 농장주인 로드리고가 선물로 준 세라믹 인형. 보기보다 꽤 커서 가방에 어떻게 넣어야 깨지 않고 한국에 가져갈 수 있을까 고민이다. #juanvaldez #colombia #specialtycoffee #fincamonteblanco #coffeelibre #커피리브레"
+        }
+      ],
+      "contextAliases": [
+        "몬테블랑코",
+        "몬테 블랑코",
+        "Monteblanco",
+        "fincamonteblanco"
+      ],
+      "originCountry": "Colombia"
+    },
+    {
+      "id": "producer-maria",
+      "name": "마리아 · Nombre de Dios",
+      "aliases": [
+        "마리아"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-1951",
+          "date": "2017-02-08",
+          "sourceUrl": "https://www.instagram.com/p/BQP8xKGBEyT/",
+          "quote": "해했지만 떠날 생각은 한 번도 하지 않았다. 한 번은 농장에서 커핑하는데 일 년 동안 열심히 로야와 싸우며 농장을 회복시키기 위해 노력했지만 품질이 예전만 못한 것 같다고 농장주 마리아는 낮은 목소리로 말했다. 그녀의 얼굴에는 미안함과 불안함이 가득했다. 해 주고 싶은 말이 있었지만 부끄러워 하지 못하고 커피 맛있다는 말만 몇 번을 한 것 같다. 아직도 농장은 예전 수확량의 1/4도 회복하지 못했다. 품질도 예전의 그 달콤하고 또 달콤했던 맛에 비하면 아직 부족하다. 마리아도 나도 알고 있다. 나는 오"
+        }
+      ],
+      "contextAliases": [
+        "Nombre de Dios",
+        "놈브레",
+        "신의 이름"
+      ]
+    },
+    {
+      "id": "producer-raul-santa-rosa",
+      "name": "라울 · 산타 로사",
+      "aliases": [
+        "라울",
+        "Raul"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-1952",
+          "date": "2017-02-09",
+          "sourceUrl": "https://www.instagram.com/p/BQShoELBk-c/",
+          "quote": "생산하는 산타아나 지역보다 고도 대비 온도가 무척 낮다. 산타아나 지역의 농장들은 현재 수확을 마쳤거나 막바지에 있는데 비해 산타로사 농장은 지난 주에야 수확을 시작했다. 농장주 라울은 이번 달 말까지 컵오브엑셀런스용 샘플 출품해야 하는데 건조하고 숙성시킬 시간이 없어서 그냥 그걸로 내야하는 상황이라며 아쉬워했다. 이 농장은 2014년 COE 1위를 비롯하여 매년 좋은 성적으로 파카마라를 랭크시키고 있다. CoE 우승 농장 리스트를 살펴보면 항상 챨라테낭고 커피들이 Top10에 많이 포진되어 있다. "
+        }
+      ],
+      "contextAliases": [
+        "산타로사",
+        "산타 로사",
+        "Santa Rosa",
+        "fincasantarosa"
+      ]
+    },
+    {
+      "id": "producer-calderon",
+      "name": "칼데론",
+      "aliases": [
+        "칼데론"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-1961",
+          "date": "2017-02-20",
+          "sourceUrl": "https://www.instagram.com/p/BQtTQrmgF6v/",
+          "quote": "Ortiz. 이번 주 싱글 오리진 커피로 로스팅한 코스타리카 그라니토스 데 오르티즈Granitos de Ortiz 농장에 어제 다녀왔습니다. \n지금 수확이 한창이라 바쁜 와중에도 칼데론 가족들이 반갑게 맞아줘 고마웠습니다. \n함께 농장을 둘러보며 잠시나마 즐거운 시간을 보냈습니다. \n니카라과에 커피 농장이 있다는 얘기를 했더니 농장주 칼데론은 게이샤 나무에서 직접 잘 익은 체리를 따고 껍질을 벗겨 파치먼트 한 움큼을 씨앗으로 쓰라며 건네주었습니다. \n끈적한 과육이 그대로 묻어 있는 상태였고 비닐도 없어"
+        }
+      ],
+      "contextAliases": [
+        "그라니토스",
+        "Granitos",
+        "granitosdeortiz"
+      ],
+      "originCountry": "Costa Rica"
+    },
+    {
+      "id": "producer-ernesto",
+      "name": "에르네스토",
+      "aliases": [
+        "에르네스토"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-1233",
+          "date": "2018-02-15",
+          "sourceUrl": "https://www.instagram.com/p/BfOHEt7g5Wm/",
+          "quote": "Finca Las Brumas. 농장주 에르네스토는 상복이 유난히 많다. 평생 한 번도 하기 힘든 CoE 1위를 두 번이나 했고 WBC 챔피언 2명이 그의 생두로 우승했다. 엘살바도르 출신 세계 챔피언 알레한드로와 작년 우승자 데일 해리스다. 두 번 모두 로스팅은 영국의 해스빈 커피가 했다. 오늘은 6 번째 방문. 산타아나 화산의 남쪽 면에 위치한 이 농장은 매번 올 "
+        }
+      ],
+      "contextAliases": [
+        "라스 브루마스",
+        "Las Brumas",
+        "라 일루시온"
+      ]
+    },
+    {
+      "id": "producer-apadurai",
+      "name": "아파두레이",
+      "aliases": [
+        "아파두레이"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-1223",
+          "date": "2018-02-01",
+          "sourceUrl": "https://www.instagram.com/p/Ben8Pf-A9I5/",
+          "quote": "그 때 심은 커피 나무 일부가 아직도 남아 있다. 그는 바이슨에 받혀 치명상을 입은 채 영국으로 돌아갔고 현재 농장주의 할아버지가 인도 독립 당시 농장을 구매했다. 현재 농장주인 아파두레이는 영국인 설립자 부부의 사진을 거실에 잘 걸어 놨고 당시 농장 서류들까지 잘 보존하고 있다. 예전에는 설립자의 자손들을 영국에서 농장으로 초대한 적이 있다고 한다. 일본 식민지를 경험한 우리로서는 선뜻 이해하기 힘든 상황이기도 하지만 곰곰이 생각해 보면 역사적으로 식민 통치는 언제나 식민지의 모든 계급과 계층의 사람들을"
+        }
+      ],
+      "contextAliases": [
+        "아티칸",
+        "Attikan"
+      ]
+    },
+    {
+      "id": "producer-hamsini",
+      "name": "함시니",
+      "aliases": [
+        "함시니"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-228",
+          "date": "2025-01-27",
+          "sourceUrl": "https://www.instagram.com/p/DFTIhBEzBj9/",
+          "quote": "찍게 해달라고 청한다. 오늘은 마침 매니저가 옆에 있어서 통역을 해줬는데 그는 아티칸에서 35년을 일했다고 한다.\n\n솔리가 부족은 아티칸 농장 안에 살며 농장 일을 한다. 농장주 함시니와 아파두레이는 마을에 전기와 인터넷을 놓아주고 힌두교 절을 세웠다. 매주 가족 인원 수만큼 계란과 음식을 제공한다. 굳이 안그래도 되는데 애쓰는 사람들이 있다. 내가 좋아하는 사람들이다.\n\n솔리가 마을에 있는 힌두교 절에 갔다. 함시니가 잠깐 기도드릴 일이 있다고 안으로 들어갔다. 나도 궁금해서 밖에서 쭈뼛거리고 있으니"
+        }
+      ],
+      "contextAliases": [
+        "아티칸",
+        "Attikan"
+      ]
+    },
+    {
+      "id": "producer-kirit",
+      "name": "키릿",
+      "aliases": [
+        "키릿"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-227",
+          "date": "2025-01-24",
+          "sourceUrl": "https://www.instagram.com/p/DFMahgrpEdc/",
+          "quote": "Azad Hind 농장. 14년째 방문하고 구매하고 있는 스페셜티 로부스타 농장이다. 쿠르그 지역에 있다.\n\n농장주 키릿은 로부스타 농장에 값비싼 관개 시설을 만들어 물과 비료 공급을 조절한다. 수확, 선별, 발효, 세척, 건조까지 모든 가공 과정의 단계를 직접 챙긴다. 작년에는 기상 조건이 양호해 커피 조밀도도 높아졌고 품질이 좋다. 농장에 오면 매번 필터 커피로 내린 커피를 마시는데 싱글 오리진으로 손색없는 맛이다.\n\n커피 수확이 끝나"
+        }
+      ],
+      "contextAliases": [
+        "아자드 힌드",
+        "Azad Hind",
+        "azadhindestate"
+      ]
+    },
+    {
+      "id": "producer-jaime",
+      "name": "하이메",
+      "aliases": [
+        "하이메"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-1238",
+          "date": "2018-02-21",
+          "sourceUrl": "https://www.instagram.com/p/BfczdZogRQy/",
+          "quote": "데다 마루야마가 좋아하는 커피라는 것을 알았기에 나는 묻지도 않았다. 오늘 아침 아주 맛있는 신 리미테스 샘플이 올라왔길래 바로 예약을 걸었다. 오후에 농장으로 찾아갔더니 농장주 하이메가 멀리서 내 이름을 부르며 손을 흔들었다. 진짜 커피 농장도 사고 과테말라에 커피샵도 열었냐고 묻는데 눈빛과 뉘앙스를 종합하면 \"거참 또라이일세\"  이윽고 시간이 흘러 일어서려고 하니 나를 조용히 창고로 불렀다. 그러더니 마대 하나를 열어 파치먼트를 비닐 봉지에 수북이 담기 시작했다. 그리고 샘플용 종이에 품종과 날짜,"
+        }
+      ],
+      "contextAliases": [
+        "신 리미테스",
+        "Sin Limites"
+      ]
+    },
+    {
+      "id": "producer-daniel",
+      "name": "다니엘 · 엘 라우렐",
+      "aliases": [
+        "다니엘"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-1245",
+          "date": "2018-03-02",
+          "sourceUrl": "https://www.instagram.com/p/Bfzx6dIAasF/",
+          "quote": "본 방법이 대히트를 친 것이다. 며칠 전 이 농장의 파라이네마를 커핑했는데 88점은 무난히 나올듯 했다. 올해도 CoE 제출 로트를 제외한 모든 생산량을 구매하기로 했다. 농장주 다니엘은 내가 방문한다고 가족과 함께 특별식을 만들었는데 내가 먹지 않는 닭을 이용한 메뉴들이 전부였다. 닭 스프에 닭고기, 닭고기를 다져 넣어 만든  바나나 잎 밥이었다. 내 표정을 보고 함께 간 옥타비오와 로니가 어찌나 웃어대는지 정성껏 준비한 음식을 먹지 못하는 미안함마저 날려 버렸다. 우리 농장에 심기 위해 파라이네마 "
+        }
+      ],
+      "contextAliases": [
+        "엘 라우렐",
+        "엘로렐",
+        "El Laurel"
+      ]
+    },
+    {
+      "id": "producer-luis",
+      "name": "루이스 · 니카라과 농장",
+      "aliases": [
+        "루이스"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-1273",
+          "date": "2018-04-13",
+          "sourceUrl": "https://www.instagram.com/p/Bhf0rImApVG/",
+          "quote": "on 2018 CoE #1 6년 째 다이렉트 트레이드로 구매해온 니카라과 라벤디시온 농장이 방금 전 끝난 올해 CoE에서 91.8점으로 1위를 차지했다. 파카마라 내추럴. 농장주 루이스는 상장을 받자마자 내게 사진을 보내줬다. 루이스의 또다른 농장이자 우리가 오랫동안 구매해온 운레갈로데디오스 농장은 5위를 차지했다. 니카라과는 아직 한국에서 잘 알려지지 않은 커피 산지지만 개인적으로 정말 좋아하고 잠재력이 큰 곳이다. 이번 계기를 통해 니카라과 커피가 더 널리 알려졌으면 한다. #nicaragua #c"
+        }
+      ],
+      "contextAliases": [
+        "운레갈로",
+        "운 레갈로",
+        "라벤디시온",
+        "라 벤디시온",
+        "Lo Prometido",
+        "로 프로메티도"
+      ],
+      "originCountry": "Nicaragua"
+    },
+    {
+      "id": "producer-marisabel",
+      "name": "마리사벨",
+      "aliases": [
+        "마리사벨"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-1598",
+          "date": "2019-06-28",
+          "sourceUrl": "https://www.instagram.com/p/BzQeoJEnLZd/",
+          "quote": " Voice of Origins☕️\n-\n커피리브레 싱글 오리진 에스프레소 프로젝트 \n그 다섯번 째🖐 커피는 온두라스 엘 판타날(El Pantanal)입니다. \n엘 판타날의 농장주 마리사벨은 온두라스 커피 생산자 중에서 가장 열정적이고 도전을 머뭇거리지 않는 인물입니다. 2016년 온두라스 Cup of Excellence 1위에 오른 엘 푸엔테를 비롯해 판타날, 아마조나스 등 여러 곳의 농장을 운영하고있는 그녀는 커피 품질 향상뿐 아니라 지속가능한 재배환경을 만들기 위한 여러가지 시도들을 계속하고 있습니다"
+        }
+      ],
+      "contextAliases": [
+        "판타날",
+        "Pantanal",
+        "아마조나스",
+        "Amazonas"
+      ]
+    },
+    {
+      "id": "producer-ever-diaz",
+      "name": "에베르 레오넬 디아스 페레스",
+      "aliases": [
+        "에베르 레오넬 디아스 페레스",
+        "Ever Leonel Diaz Perez"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-833",
+          "date": "2020-08-04",
+          "sourceUrl": "https://www.instagram.com/p/CDdVOe7pdd6/",
+          "quote": "Mileydi농장의 커피를 낙찰받았습니다._x000D_\n개인적으로 엘살바도르는 버본품종과 파카마라 품종을 좋아해서 사심이 들어간 낙찰을...ㅎㅎ_x000D_\n_x000D_\n농장주 에베르 레오넬 디아스 페레스(Ever Leonel Diaz Perez)에 대한 인터뷰 내용을 첨가 해드립니다._x000D_\n_x000D_\n_x000D_\n#엘카페 #엘살바도르 #COE #커피리브레 #커피몽타주﻿"
+        }
+      ],
+      "contextAliases": []
+    },
+    {
+      "id": "producer-diego-paraiso",
+      "name": "디에고 · 엘 파라이소",
+      "aliases": [
+        "디에고",
+        "Diego"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "legacy-598",
+          "date": "2022-09-04",
+          "sourceUrl": "https://www.instagram.com/p/CiEm15Rsr6x/",
+          "quote": "질문하고 설명을 들었지만 나는 생화학에 대한 이해가 너무 부족해서 농장측의 설명을 절반도 이해하지 못한 것 같다. 그리고 설명과 과학적 입증, 실제는 다른거니까.\n \n나는 농장주 디에고와 농장에서 생화학자로 일하고 있는 안드레를 통해 꽤 번듯한 랩에서 그들이 Biocatalysis(생체촉매반응)이라고 부르는 가공 과정에 대해 자세한 설명을 듣는 것으로부터 시작했다. 못알아 들어서 한 번 더 물었는데 결국 못알아 들었다. 정말 바보가된 듯한 느낌이었다. 안드레는 생화학을 전공하고 맥주회사에서 효모 배양/"
+        }
+      ],
+      "contextAliases": [
+        "엘파라이소",
+        "엘 파라이소",
+        "El Paraiso"
+      ]
+    },
+    {
+      "id": "producer-simon",
+      "name": "사이먼 브라운",
+      "aliases": [
+        "사이먼 브라운",
+        "사이먼",
+        "Simon Brown"
+      ],
+      "role": "산지 파트너",
+      "evidence": [
+        {
+          "postId": "legacy-597",
+          "date": "2022-09-02",
+          "sourceUrl": "https://www.instagram.com/p/Ch-8hdsp8Jy/",
+          "quote": "사이먼 브라운. 영국인. 7년 전 니카라과에서 만나 친구가 됐다. 얼마 후 영국 생두회사의 페루 지부로 발령받아 일하다가 3년 전부터 나를 꼬셔 페루 생두를 구매하게 했다. 품질과 가격 모두 마음에 들었다. 올해 페루 커피가 들어오고 얼마 지나지 않아 독립해서 회사를 세운다고 했다. 나는 곧 가겠다고 답했다.\n\n생두 구매에서 가장 중"
+        }
+      ],
+      "contextAliases": [
+        "차크라",
+        "Chakra",
+        "페루",
+        "Peru"
+      ],
+      "originCountry": "Peru"
+    },
+    {
+      "id": "producer-samuel",
+      "name": "사무엘 · 엘캄발라체",
+      "aliases": [
+        "사무엘"
+      ],
+      "role": "농장주",
+      "evidence": [
+        {
+          "postId": "instagram-DXAv-G1CTiR",
+          "date": "2026-04-12",
+          "sourceUrl": "https://www.instagram.com/libre_pil/p/DXAv-G1CTiR/",
+          "quote": "믿을만큼 깨끗하고 톤이 밝은 산미를 갖고 있었다. 3위는 작년도 CoE 1위 농장의 저력을 보여주기에 충분했다. 올해도 CoE 에 게이샤 와시드를 출품했다니 기대가 크다. 농장주 사무엘을 방문했다가 출품한 게이샤 커피를 맛봤는데 정말 훌륭했다. 1400미터도 안되는 고도에서 어떻게 이런 게이샤가 나오는지 신기할 따름이다. 앞으로 베스트 마라고 대회가 점점 더 흥하기를."
+        }
+      ],
+      "contextAliases": [
+        "엘캄발라체",
+        "엘 캄발라체",
+        "El Cambalache"
+      ]
+    },
+    {
+      "id": "producer-samuel-degelo",
+      "name": "사무엘 데겔로 · 에티오피아",
+      "aliases": [
+        "사무엘 데겔로",
+        "Samuel Degelo"
+      ],
+      "role": "생산자",
+      "contextAliases": [],
+      "evidence": [
+        {
+          "postId": "legacy-1668",
+          "date": "2019-10-08",
+          "sourceUrl": "https://www.instagram.com/p/B3V_BpOpJYX/",
+          "quote": "/13]\n\n이번 주 추천 커피는 The Ethiopian Cup 2위 ‘사무엘 데겔로 Samuel Degelo’ 입니다.\n구지 비샨 디모 커뮤니티에서 태어나고 자란 사무엘은 어렸을 때부터 커피 재배하는 방법을 부모님께 배웠습니다. 커피 농부이자 Danbi Uddo 초등학교의 교사인 사무엘은\n‘이웃 농부들이 훌륭한 커피를 목표로 삼도록 돕고, 그들과 함께 비샨 디모 농부들이 최고의 에티오피아 커피를 만들 수 있음을 전 세계에 보여주는 것’이 자신의 목표라고 합니다.\n‘사무엘 데겔로’ 커피는 오렌지, 파인애플, 살구, 레몬 등 과일 느낌이 풍부하고 매우 달콤한 커피입니다. - [NEW] The Ethiopian Cup 2위 ‘사무엘 데겔로 Samuel Degelo’\n- 코스타리카 ‘산타 테레사"
+        }
+      ],
+      "originCountry": "Ethiopia"
+    }
+  ]
+}

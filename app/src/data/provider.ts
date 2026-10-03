@@ -1,3 +1,4 @@
+import { indexConnections, processingMethods } from './connections';
 import { classifyArchive, topicLabel } from './taxonomy';
 import { snapshot } from './mock';
 import type { ArchiveProvider, Post, SearchResult } from './types';
@@ -8,13 +9,15 @@ const groups=[['기후','날씨','강우','비','우기','가뭄','개화','수�
 export function searchLocal(query:string,posts:Post[]):SearchResult {
  const q=query.toLowerCase().trim();
  if(!q) return {posts,related:['기후','Pink Bourbon','가공','생산자'],mode:'local-keyword'};
- const matched=groups.filter(g=>g.some(t=>q.includes(t)));
+ const processGroups=processingMethods.map(m=>[m.name,...m.aliases]);
+ const explicitProcessing=processGroups.some(g=>g.some(t=>q.includes(t.toLowerCase())));
+ const matched=[...groups.filter(g=>!explicitProcessing||!g.includes('가공')),...processGroups].filter(g=>g.some(t=>q.includes(t)));
  const related=[...new Set(matched.flat())].filter(t=>!q.includes(t)).slice(0,8);
  const terms=[...matched.flat(),...q.split(/\s+/).filter(t=>t.length>1)];
- const ranked=posts.map(p=>{const hay=[p.title,p.caption,p.country,p.region,...p.tags,...(p.topics||[]).map(topicLabel)].join(' ').toLowerCase();return {p,score:terms.reduce((s,t)=>s+(hay.includes(t.toLowerCase())?1:0),0)};}).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||b.p.date.localeCompare(a.p.date));
+ const ranked=posts.map(p=>{const hay=[p.title,p.caption,p.country,p.region,...p.tags,...(p.topics||[]).map(topicLabel),...(p.processingIds||[]).map(id=>processingMethods.find(m=>m.id===id)?.name||'')].join(' ').toLowerCase();return {p,score:terms.reduce((s,t)=>s+(hay.includes(t.toLowerCase())?1:0),0)};}).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||b.p.date.localeCompare(a.p.date));
  return {posts:ranked.map(x=>x.p),related,mode:'local-keyword'};
 }
-export const mockProvider:ArchiveProvider={async getSnapshot(){return classifyArchive(structuredClone(snapshot))},async search(query,posts){return searchLocal(query,posts)}};
+export const mockProvider:ArchiveProvider={async getSnapshot(){return classifyArchive(indexConnections(structuredClone(snapshot)))},async search(query,posts){return searchLocal(query,posts)}};
 // Replace this factory with an API-backed provider; components keep the same interface.
 export function getArchiveProvider():ArchiveProvider{
  if(new URLSearchParams(window.location.search).get('demo')==='1')return mockProvider;
@@ -24,8 +27,8 @@ export function getArchiveProvider():ArchiveProvider{
   if(!response.ok)throw new Error('기존 기록을 불러오지 못했습니다.');
   const archive=adaptLegacy(await response.json(),base);
   const updates=await fetch(`${base}archive_updates.json`,{cache:'no-cache'});
-  if(updates.status===404)return classifyArchive(indexFarms(archive));
+  if(updates.status===404)return classifyArchive(indexConnections(indexFarms(archive)));
   if(!updates.ok)throw new Error('추가 기록을 불러오지 못했습니다.');
-  return classifyArchive(indexFarms(mergeUpdates(archive,await updates.json())));
+  return classifyArchive(indexConnections(indexFarms(mergeUpdates(archive,await updates.json()))));
  },async search(query,posts){return searchLocal(query,posts)}};
 }

@@ -43,9 +43,9 @@ export function classifyPost(post:Post):Post {
 }
 export function classifyArchive(data:ArchiveSnapshot):ArchiveSnapshot {return {...data,posts:data.posts.map(classifyPost)}}
 export type RecordSort='recent'|'oldest'|'title'|'connections'|'relevance';
-export interface RecordFilter {country:string;group:string;topic:string;recordYear:string;untilYear:number;sort:RecordSort}
+export interface RecordFilter {processing?:string;producer?:string;country:string;group:string;topic:string;recordYear:string;untilYear:number;sort:RecordSort}
 export function selectRecords(posts:Post[],filter:RecordFilter):Post[]{
- const selected=posts.filter(p=>(filter.country==='All'||p.country===filter.country)&&(filter.topic==='All'||p.topics?.includes(filter.topic))&&(filter.group==='All'||p.topics?.some(t=>topicGroup(t)===filter.group))&&(filter.recordYear==='All'||p.date.startsWith(filter.recordYear))&&Number(p.date.slice(0,4))<=filter.untilYear);
+ const selected=posts.filter(p=>(!filter.processing||filter.processing==='All'||p.processingIds?.includes(filter.processing))&&(!filter.producer||filter.producer==='All'||(p.producerIds||[p.producerId]).includes(filter.producer))&&(filter.country==='All'||p.country===filter.country)&&(filter.topic==='All'||p.topics?.includes(filter.topic))&&(filter.group==='All'||p.topics?.some(t=>topicGroup(t)===filter.group))&&(filter.recordYear==='All'||p.date.startsWith(filter.recordYear))&&Number(p.date.slice(0,4))<=filter.untilYear);
  if(filter.sort==='relevance')return selected;
  return selected.sort((a,b)=>filter.sort==='oldest'?a.date.localeCompare(b.date)||a.id.localeCompare(b.id):filter.sort==='title'?a.title.localeCompare(b.title,'ko')||b.date.localeCompare(a.date):filter.sort==='connections'?(b.farmIds?.length||0)-(a.farmIds?.length||0)||b.date.localeCompare(a.date):b.date.localeCompare(a.date)||a.id.localeCompare(b.id));
 }
