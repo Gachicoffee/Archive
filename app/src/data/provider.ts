@@ -5,16 +5,21 @@ import type { ArchiveProvider, Post, SearchResult } from './types';
 import { adaptLegacy } from './legacy';
 import { mergeUpdates } from './updates';
 import { indexFarms } from './farms';
+import { normalizeSearchText, searchConcepts } from './concepts';
 const groups=[['기후','날씨','강우','비','우기','가뭄','개화','수확 지연','미기후'],['핑크 버번','pink bourbon','품종','버번','bourbon'],['가공','발효','워시드','washed','허니','honey','내추럴','natural','건조'],['콜롬비아','colombia','우일라','huila'],['코스타리카','costa rica','tarrazú','타라주'],['과테말라','guatemala','huehuetenango'],['에티오피아','ethiopia','sidama'],['생산자','가족','공동체','세대'],['고도','토양','그늘']];
 export function searchLocal(query:string,posts:Post[]):SearchResult {
  const q=query.toLowerCase().trim();
  if(!q) return {posts,related:['기후','Pink Bourbon','가공','생산자'],mode:'local-keyword'};
  const processGroups=processingMethods.map(m=>[m.name,...m.aliases]);
+ const matchedConcepts=searchConcepts.filter(c=>c.pattern?c.pattern.test(q):c.aliases.some(t=>normalizeSearchText(q).includes(normalizeSearchText(t))));
+ const conceptGroups=matchedConcepts.map(c=>c.aliases);
  const explicitProcessing=processGroups.some(g=>g.some(t=>q.includes(t.toLowerCase())));
- const matched=[...groups.filter(g=>!explicitProcessing||!g.includes('가공')),...processGroups].filter(g=>g.some(t=>q.includes(t)));
+ const matched=[...groups.filter(g=>!explicitProcessing||!g.includes('가공')),...processGroups,...conceptGroups].filter(g=>g.some(t=>normalizeSearchText(q).includes(normalizeSearchText(t))));
  const related=[...new Set(matched.flat())].filter(t=>!q.includes(t)).slice(0,8);
- const terms=[...matched.flat(),...q.split(/\s+/).filter(t=>t.length>1)];
- const ranked=posts.map(p=>{const hay=[p.title,p.caption,p.country,p.region,...p.tags,...(p.topics||[]).map(topicLabel),...(p.processingIds||[]).map(id=>processingMethods.find(m=>m.id===id)?.name||'')].join(' ').toLowerCase();return {p,score:terms.reduce((s,t)=>s+(hay.includes(t.toLowerCase())?1:0),0)};}).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||b.p.date.localeCompare(a.p.date));
+ const recognizedConcept=conceptGroups.some(g=>g.some(t=>normalizeSearchText(q)===normalizeSearchText(t)));
+ const strictConcepts=matchedConcepts.filter(c=>c.pattern);
+ const terms=[...new Set([...matched.flat(),...(recognizedConcept?[]:q.split(/\s+/).filter(t=>t.length>1))].map(normalizeSearchText))].filter(t=>!strictConcepts.some(c=>c.aliases.map(normalizeSearchText).includes(t)));
+ const ranked=posts.map(p=>{const raw=[p.title,p.caption,p.country,p.region,...p.tags,...(p.topics||[]).map(topicLabel),...(p.processingIds||[]).map(id=>processingMethods.find(m=>m.id===id)?.name||'')].join(' ');const hay=normalizeSearchText(raw);return {p,score:terms.reduce((s,t)=>s+(hay.includes(t)?1:0),0)+strictConcepts.filter(c=>c.pattern!.test(raw)).length};}).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||b.p.date.localeCompare(a.p.date));
  return {posts:ranked.map(x=>x.p),related,mode:'local-keyword'};
 }
 export const mockProvider:ArchiveProvider={async getSnapshot(){return classifyArchive(indexConnections(structuredClone(snapshot)))},async search(query,posts){return searchLocal(query,posts)}};
