@@ -4,6 +4,8 @@ import { DEMO_TODAY as MOCK_TODAY, WEEK_START as MOCK_WEEK } from './data/mock';
 import { taxonomy, topicLabel, topicGroup, selectRecords, type RecordSort } from './data/taxonomy';
 import { hasProducer, methodLabel, processingMethods } from './data/connections';
 import { detectArchiveEvents } from './data/events';
+import { buildInsightCards } from './data/insights';
+import InsightCard from './InsightCard';
 import { hasFarm } from './data/farms';
 import { getArchiveProvider } from './data/provider';
 import type { ArchiveSnapshot, Entity, Post, SearchResult } from './data/types';
@@ -25,6 +27,7 @@ export default function App(){
  const [visibleLimit,setVisibleLimit]=useState(24);
  const [group,setGroup]=useState('All');const [recordYear,setRecordYear]=useState('All');const [sort,setSort]=useState<RecordSort>('recent');const [jump,setJump]=useState('');
  const [country,setCountry]=useState('All');const [topic,setTopic]=useState('All');const [year,setYear]=useState(2026);
+ const [homeFeed,setHomeFeed]=useState<'events'|'processing'|'research'>('events');
  const [detailSort,setDetailSort]=useState<'recent'|'oldest'>('recent');
  const [detail,setDetail]=useState<Detail|null>(null);const [post,setPost]=useState<Post|null>(null);const [mobile,setMobile]=useState(false);
  const [saved,setSaved]=useState<string[]>(()=>{try{return JSON.parse(localStorage.getItem('pilhoon-saved')||'[]')}catch{return []}});
@@ -66,6 +69,7 @@ export default function App(){
  const collection=data.collection;
  const minYear=isDemo?2018:2015;
  const archiveEvents=detectArchiveEvents(data.posts,DEMO_TODAY);
+ const insightCards=buildInsightCards(data.posts,DEMO_TODAY);
  const latest=[...data.posts].sort((a,b)=>b.date.localeCompare(a.date))[0];
  const countries=[...new Set(data.posts.map(p=>p.country))].filter(c=>c!=='국가 미분류');
  const week=data.posts.filter(p=>p.date>=WEEK_START&&p.date<=DEMO_TODAY);
@@ -73,7 +77,7 @@ export default function App(){
  const freshFarms=data.farms.filter(f=>!data.posts.some(p=>hasFarm(p,f.id)&&p.date<WEEK_START));
  const freshPeople=data.producers.filter(f=>!data.posts.some(p=>hasProducer(p,f.id)&&p.date<WEEK_START));
  const title:Record<Page,string>={Home:'산지의 변화와 다음 신호.',Explore:'한 잔 너머의 세계.',Search:'궁금한 것부터 시작하세요.',Stories:'시간이 쌓이면 이야기가 됩니다.',Timeline:'기록을 따라, 시간을 거슬러.',Map:'커피가 자라는 곳.',Weekly:'이번 주, 우리가 배운 것.',Archive:'내가 저장한 기록들.'};
- const subtitle:Record<Page,string>={Home:'주요 이벤트와 영향 가능성을 원문 근거와 함께 읽습니다.',Explore:'국가, 농장, 생산자와 주제로 기록을 탐색하세요.',Search:'같은 단어가 없어도, 관련된 이야기를 함께 찾아보세요.',Stories:'여러 해에 걸친 기록을 하나의 흐름으로 읽습니다.',Timeline:'타임머신으로 그해까지 쌓인 기록을 살펴보세요.',Map:'산지의 위치와 관련 기록을 함께 펼칩니다.',Weekly:`${WEEK_START} — ${DEMO_TODAY} · 주간 기록 상태`,Archive:'북마크, 데이터 내보내기와 기존 데이터 가져오기.'};
+ const subtitle:Record<Page,string>={Home:'산지 이벤트, 프로세싱 실험과 연구를 원문 근거와 함께 읽습니다.',Explore:'국가, 농장, 생산자와 주제로 기록을 탐색하세요.',Search:'같은 단어가 없어도, 관련된 이야기를 함께 찾아보세요.',Stories:'여러 해에 걸친 기록을 하나의 흐름으로 읽습니다.',Timeline:'타임머신으로 그해까지 쌓인 기록을 살펴보세요.',Map:'산지의 위치와 관련 기록을 함께 펼칩니다.',Weekly:`${WEEK_START} — ${DEMO_TODAY} · 주간 기록 상태`,Archive:'북마크, 데이터 내보내기와 기존 데이터 가져오기.'};
  const cards=(posts:Post[],limit?:number)=><><div className="post-grid">{posts.slice(0,limit??visibleLimit).map(p=><article className="card post-card" key={p.id}>{p.imageUrl&&<button className="post-image-button" onClick={()=>setPost(p)} aria-label={`${p.title} 원문 보기`}><img className="post-image" src={p.imageUrl} loading="lazy" alt="기존 게시물에 보관된 사진"/></button>}<div className="post-top"><span className="eyebrow">{p.country} / {p.region}</span><button className={`icon-button ${saved.includes(p.id)?'is-saved':''}`} aria-label={saved.includes(p.id)?'저장 해제':'기록 저장'} onClick={()=>toggleSave(p.id)}><Bookmark size={17} fill={saved.includes(p.id)?'currentColor':'none'}/></button></div><span className="inference-label">주제 분류 · 추정</span><span className="eyebrow">{p.author&&`작성자 @${p.author}`}</span><Badge kind="ai" mock={isDemo} generated={p.summaryKind==='ai'} excerpt={p.summaryKind==='excerpt'}/><button className="text-button post-title" onClick={()=>setPost(p)}>{p.title}</button><p>{p.summary}</p><div className="tags">{(p.topics||[]).slice(0,3).map(t=><button key={t} onClick={()=>{resetFilters();setTopic(t);setGroup(topicGroup(t));openRecords()}}>{topicLabel(t)}</button>)}</div><div className="tags connection-tags">{(p.processingIds||[]).slice(0,2).map(id=><button key={id} onClick={()=>{resetFilters();setProcessing(id);openRecords()}}>{methodLabel(id)}</button>)}{(p.producerIds||[]).slice(0,2).map(id=><button key={id} onClick={()=>setDetail({kind:'producer',id})}>{data.producers.find(e=>e.id===id)?.name}</button>)}</div><footer><span>{p.date.replaceAll('-','.')}</span><button onClick={()=>setPost(p)}>근거 기록 <ArrowUpRight size={14}/></button></footer></article>)}</div>{!limit&&posts.length>visibleLimit&&<div className="load-more"><button className="soft-button" onClick={()=>setVisibleLimit(n=>n+24)}>기록 더 보기 · {Math.min(visibleLimit,posts.length)} / {posts.length}</button></div>}</>;
  const entityCards=(entities:Entity[],kind:'farm'|'producer')=><div className="entity-grid">{entities.map((e,i)=><button className="card entity-card" key={e.id} onClick={()=>setDetail({kind,id:e.id})}><div className={`entity-art tone-${i%4}`}><span>{kind==='farm'?<MapPin size={26}/>:<Coffee size={26}/>}</span><div className="art-lines"/></div><div className="entity-copy"><span className="eyebrow">{e.country} · {e.region}</span><h3>{e.name}</h3>{e.role&&<span className="badge original">{e.role}</span>}{e.kind==='mill'&&<span className="badge original">가공소</span>}<p>{e.description}</p><span className="entity-meta">{data.posts.filter(p=>(kind==='farm'?hasFarm(p,e.id):hasProducer(p,e.id))).length}개 기록 <ArrowUpRight size={15}/></span></div></button>)}</div>;
  const filterBar=<div className="record-controls card"><div className="filter-bar"><label>국가<select aria-label="기록 국가" value={country} onChange={e=>setCountry(e.target.value)}><option value="All">전체 국가</option>{[...countries,'국가 미분류'].map(c=><option key={c}>{c}</option>)}</select></label><label>큰 분류<select aria-label="큰 분류" value={group} onChange={e=>{setGroup(e.target.value);setTopic('All')}}><option value="All">모든 이야기</option>{[...new Set(taxonomy.map(t=>t[0]))].map(g=><option key={g}>{g}</option>)}</select></label><label>세부 주제<select aria-label="세부 주제" value={topic} onChange={e=>setTopic(e.target.value)}><option value="All">전체 세부 주제</option>{taxonomy.filter(t=>group==='All'||t[0]===group).map(([,id,label])=><option key={id} value={id}>{label}</option>)}</select></label><label>가공방식<select aria-label="가공방식 필터" value={processing} onChange={e=>setProcessing(e.target.value)}><option value="All">전체 가공방식</option>{processingMethods.map(m=><option key={m.id} value={m.id}>{m.name} · {data.posts.filter(p=>p.processingIds?.includes(m.id)).length}</option>)}</select></label><label>생산자 / 파트너<select aria-label="생산자 필터" value={producer} onChange={e=>setProducer(e.target.value)}><option value="All">모든 생산자 / 파트너</option>{data.producers.map(p=><option key={p.id} value={p.id}>{p.name}</option>)}</select></label><label>게시 연도<select aria-label="게시 연도" value={recordYear} onChange={e=>setRecordYear(e.target.value)}><option value="All">전체 연도</option>{[...new Set(data.posts.map(p=>p.date.slice(0,4)))].sort().reverse().map(y=><option key={y}>{y}</option>)}</select></label><label>정렬<select aria-label="기록 정렬" value={sort} onChange={e=>setSort(e.target.value as RecordSort)}>{page==='Search'&&<option value="relevance">검색 관련도순</option>}<option value="recent">날짜 · 최신순</option><option value="oldest">날짜 · 오래된순</option><option value="title">제목 · 가나다순</option><option value="connections">연결 농장 많은 순</option></select></label><button className="soft-button" onClick={resetFilters}>초기화</button><span className="muted" role="status">{(page==='Search'?searchPosts:filtered).length.toLocaleString()}개 기록</span></div><p className="classification-note">원문 문맥으로 추정한 복수 주제입니다. 같은 기록이 여러 분류에 포함될 수 있으며, 기록을 열면 판단 근거를 확인할 수 있습니다.</p></div>;
@@ -99,6 +103,8 @@ export default function App(){
  {page==='Home'&&!isDemo&&<>
  <div className="stat-grid">{[[String(data.posts.length),'전체 기록','원문 보존 · 새 사진은 원본 링크'],[String(data.farms.filter(f=>f.kind!=='mill').length),'농장 아카이브','전체 원문에서 이름과 근거 확인'],[String(countries.length),'분류된 국가','국가별 관련 기록 보기'],[latest.date.slice(0,4),'최근 기록 연도','게시일 기준']].map(([v,l,h],i)=><button className="card stat-card" key={l} onClick={()=>openStat(i)} aria-label={`${l} 보기`}><span>{l}</span><strong>{v}</strong><p>{h} <ArrowUpRight size={14}/></p></button>)}</div>
 
+ <nav className="view-tabs home-feed-tabs" aria-label="홈 카드 유형">{([['events','산지 이벤트',archiveEvents.length],['processing','프로세싱 실험',insightCards.filter(c=>c.category==='processing').length],['research','논문·연구',insightCards.filter(c=>c.category==='research').length]] as const).map(([id,label,count])=><button key={id} aria-pressed={homeFeed===id} onClick={()=>setHomeFeed(id)}>{label} <span>{count}</span></button>)}</nav>
+ {homeFeed==='events'&&<>
  <Section title="산지 이벤트와 영향 가능성" subtitle="사건 신호 → 다음 영향 → 원문 근거 · 보관 기록 기준"/>
  <div className="event-grid">{archiveEvents.map(event=><article className="card event-card" key={event.id}>
   <div className="event-meta"><span className="badge original">{event.kind}</span><span>근거 게시일 {event.date}</span></div>
@@ -109,6 +115,12 @@ export default function App(){
   <details className="event-evidence"><summary>근거와 판단의 한계 · {event.evidence.length}개 원문</summary><h3>함께 읽어야 할 조건</h3><p>{event.limits}</p><h3>이어서 확인할 것</h3><p>{event.followUp}</p>{event.evidence.map(e=><div className="event-source" key={e.postId}><span className="eyebrow">게시일 {e.date}</span><blockquote>{e.quote}</blockquote><div className="issue-actions"><button className="text-link" onClick={()=>setPost(data.posts.find(p=>p.id===e.postId)||null)}>보관 원문 <ArrowUpRight size={13}/></button>{e.sourceUrl&&<a className="text-link" href={e.sourceUrl} target="_blank" rel="noreferrer">Instagram 출처 <ExternalLink size={13}/></a>}</div></div>)}<small>같은 연도의 관련 기록 {event.recordCount}개 중 최근 {event.evidence.length}개를 연결했습니다.</small></details>
  </article>)}</div>{!archiveEvents.length&&<Empty message="이벤트를 연결할 만한 원문 근거가 아직 없습니다."/>}
  <p className="classification-note">보관 원문에서 찾은 신호와 그에 대한 추론입니다. 실시간 뉴스·확정된 가격 전망이 아니며, 게시일은 사건 발생일과 다를 수 있습니다. 모든 이벤트를 자동으로 찾아낸 목록은 아닙니다.</p>
+ </>}
+ {homeFeed!=='events'&&<>
+ <Section title={homeFeed==='processing'?'산지에서 시작한 실험, 그다음은?':'연구를 읽고, 커피에 연결하기'} subtitle={homeFeed==='processing'?'어디서 무엇을 시도했나 → 기대 → 후속 결과 → 원문 근거':'원문의 연구 언급 → 확인한 자료 → 적용 가능성 → 출처'}/>
+ <div className="insight-grid">{insightCards.filter(c=>c.category===homeFeed).map(card=><InsightCard key={card.id} card={card} onOpenPost={id=>setPost(data.posts.find(p=>p.id===id)||null)}/>)}</div>
+ <p className="classification-note">보관 원문을 검토해 선정한 카드입니다. 기대와 전망은 추정으로 구분하며, 결과가 확인되지 않은 실험은 미확인으로 표시합니다. 연구 카드의 외부 자료는 확인 범위와 출처를 따로 표시합니다.</p>
+ </>}
  <Section title="최근 보관 기록" subtitle={`마지막 기록 ${latest.date} · 새로운 원문부터 읽어보세요`} action="모든 기록" onAction={()=>{resetFilters();openRecords()}}/>{cards([...data.posts].sort((a,b)=>b.date.localeCompare(a.date)),6)}
  </>}
 
