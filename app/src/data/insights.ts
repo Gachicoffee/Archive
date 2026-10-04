@@ -1,10 +1,20 @@
 import type { Post } from './types';
-export type InsightCategory='processing'|'research';
+export type InsightCategory='processing'|'research'|'cultivars'|'cultivation'|'quality'|'partnership'|'market';
+import { additionalInsights } from './insight-topics';
+export const insightSections: {id:InsightCategory;label:string;title:string;subtitle:string}[]=[
+ {id:'processing',label:'프로세싱 실험',title:'산지에서 시작한 실험, 그다음은?',subtitle:'어디서 무엇을 시도했나 → 기대 → 후속 결과 → 원문 근거'},
+ {id:'research',label:'논문·연구',title:'연구를 읽고, 커피에 연결하기',subtitle:'원문의 연구 언급 → 확인한 자료 → 적용 가능성 → 출처'},
+ {id:'cultivars',label:'품종·유전 자원',title:'품종의 가능성은 어떤 땅에서 달라질까?',subtitle:'품종 선택 → 현장 관찰 → 다음 확인 → 원문 근거'},
+ {id:'cultivation',label:'재배·토양',title:'커피를 키우는 환경의 변화',subtitle:'토양·그늘·농장 관리 → 기대와 조건 → 확인할 결과'},
+ {id:'quality',label:'수확·품질 관리',title:'좋은 커피를 지키는 현장의 디테일',subtitle:'선별·건조·로트 관리 → 품질 연결 → 적용의 조건'},
+ {id:'partnership',label:'생산자·협업',title:'좋은 커피를 함께 만드는 사람들',subtitle:'파트너와 역할 → 함께 한 일 → 다음 협업 → 원문 근거'},
+ {id:'market',label:'시장·유통',title:'산지의 커피가 시장에 닿기까지',subtitle:'당시 시장 신호 → 구매·유통의 의미 → 확인할 조건'},
+];
 interface CitationSpec {postId:string;anchor:string;label:string}
 export interface InsightCitation extends CitationSpec {date:string;quote:string;sourceUrl?:string}
 export interface ResearchSource {label:string;url:string;checkedAt:string;scope:string;finding:string}
-export interface InsightStage {label:string;title:string;text:string;kind:'원문에서 정리'|'원문 목표 + 추정'|'후속 언급'|'결과 미확인'|'연구와 해석 구분';citationIndexes:number[]}
-interface InsightSpec {id:string;category:InsightCategory;title:string;place:string;status:string;lead:string;stages:InsightStage[];citations:CitationSpec[];limits:string;researchSources?:ResearchSource[]}
+export interface InsightStage {label:string;title:string;text:string;kind:'원문에서 정리'|'원문 목표 + 추정'|'후속 언급'|'결과 미확인'|'연구와 해석 구분'|'해석 · 추정';citationIndexes:number[]}
+export interface InsightSpec {id:string;category:InsightCategory;title:string;place:string;status:string;lead:string;stages:InsightStage[];citations:CitationSpec[];limits:string;researchSources?:ResearchSource[]}
 export interface InsightCardData extends Omit<InsightSpec,'citations'> {citations:InsightCitation[];date:string}
 const april='instagram-DXBQ9ftlqO7',october='instagram-DeBDmiWgDVy';
 
@@ -66,7 +76,7 @@ function resolveCitation(spec:CitationSpec,posts:Post[],today:string):InsightCit
 // Reviewed editorial cards are shown only while all original anchors are present.
 // Shared names or a later award never establish that two posts describe one trial.
 export function buildInsightCards(posts:Post[],today:string):InsightCardData[]{
- return catalog.flatMap(spec=>{
+ return [...catalog,...additionalInsights].flatMap(spec=>{
   const citations=spec.citations.map(c=>resolveCitation(c,posts,today));
   if(citations.some(c=>!c))return [];
   const resolved=citations as InsightCitation[];

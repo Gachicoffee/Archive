@@ -3,12 +3,15 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { adaptLegacy } from '../src/data/legacy';
 import { mergeUpdates } from '../src/data/updates';
-import { buildInsightCards } from '../src/data/insights';
+import { buildInsightCards, insightSections } from '../src/data/insights';
 const data=mergeUpdates(adaptLegacy(JSON.parse(readFileSync('public/archive_data.json','utf8')),'/'),JSON.parse(readFileSync('public/archive_updates.json','utf8')));
 test('reviewed cards retain original quotes, dates and distinct source identities',()=>{
  const cards=buildInsightCards(data.posts,'2026-10-04');
  assert.equal(cards.filter(c=>c.category==='processing').length,4);
  assert.equal(cards.filter(c=>c.category==='research').length,3);
+ assert.equal(cards.length,17);
+ assert.equal(new Set(insightSections.map(s=>s.id)).size,7);
+ for(const category of ['cultivars','cultivation','quality','partnership','market'])assert.equal(cards.filter(c=>c.category===category).length,2);
  for(const card of cards){
   for(const citation of card.citations){const post=data.posts.find(p=>p.id===citation.postId)!;assert.ok(post.caption.includes(citation.quote));assert.ok(citation.quote.includes(citation.anchor));assert.equal(citation.date,post.date);assert.equal(citation.sourceUrl,post.sourceUrl);}
   for(const stage of card.stages)for(const index of stage.citationIndexes)assert.ok(card.citations[index]);
