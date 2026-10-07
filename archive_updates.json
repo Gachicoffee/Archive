@@ -1,12 +1,12 @@
 {
   "version": 1,
   "collection": {
-    "checkedAt": "2026-10-03",
+    "checkedAt": "2026-10-07",
     "schedule": "매주 월요일 오전 9시 · 한국 시간",
     "backfillComplete": true,
     "backfillAfter": "2026-01-28",
     "method": "Codex 로그인 브라우저 · 공개 게시물 원문",
-    "lastAdded": 68,
+    "lastAdded": 1,
     "backfillVerifiedAt": "2026-10-03",
     "backfillCount": 71,
     "backfillScope": "libre_pil 공개 프로필에 표시된 2026-01-28 이후 게시물과 릴스. 다른 작성자 4건은 작성자 구분. 비공개·삭제 게시물 및 사진·영상 파일 제외.",
@@ -14,6 +14,29 @@
     "failures": []
   },
   "posts": [
+    {
+      "id": "instagram-DeGdwFeTxA5",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T05:58:56.000Z",
+      "country": "국가 미분류",
+      "region": "오토탈",
+      "farmId": "",
+      "producerId": "",
+      "title": "오토탈의 우기와 수확 준비, 귀환을 앞두고",
+      "caption": "매일 저녁 비가 내리는 우기를 이곳 사람들은 겨울이라 부른다. 맞은 편 산에는 아침까지 구름이 가득 걸려있다.\n\n이곳 생산자들은 다가올 수확 준비가 한창이다. 커피 농장은 쉴 틈이 없다. 오늘로 오토탈에서의 일정도 끝이 났다. 이제 귀환 모드다.\n\n오토탈을 떠날 때마다 마음이 조금 싱숭생숭하다. 전생에 나는 이곳과 이곳의 사람들과 무슨 인연이었을까 궁금해진다.",
+      "summary": "저녁마다 비가 내리는 우기와 다가올 수확을 준비하는 생산자들의 모습을 기록했습니다. 오토탈에서의 일정을 마치고 귀환을 준비하며, 이곳과 사람들에 대한 애틋한 마음을 이야기합니다.",
+      "tags": [
+        "우기",
+        "수확 준비",
+        "생산자",
+        "오토탈",
+        "산지 출장"
+      ],
+      "sourceUrl": "https://www.instagram.com/p/DeGdwFeTxA5/",
+      "isMock": false,
+      "summaryKind": "ai",
+      "author": "libre_pil"
+    },
     {
       "id": "instagram-DeBDmiWgDVy",
       "date": "2026-10-03",
